@@ -1,4 +1,7 @@
 # Changelog for MechalitCore
 
+1.0.1.0 - Republish as the description was too long
+
+
 1.0.0.0 - First publish
 

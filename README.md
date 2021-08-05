@@ -13,31 +13,20 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1141721293
 **# WHAT IS IT?
 **
 
-	This mod is the core mod, first and main of the &quot;Mechalite&quot; mod series. It adds more diversity to the game by adding new materials, items, buildings and technologies. The gameplay will become more intresting, and you will have more things to do before leaving the planet.
+	This mod is the core mod, first and main of the "Mechalite" mod series. It adds more diversity to the game by adding new materials, items, buildings and technologies. The gameplay will become more intresting, and you will have more things to do before leaving the planet.
 	# Mod is compatible with old saves, though new colony is needed to be founded in order to obtain some new resources (new metal deposits and ancient boreholes will appear only on newly discovered locations).
 
-	Mod is compatible with EPOE/RBSE and should not conflict with other mods on prostheses.
-	# It is recommended to also install DeCore mod, its metal rebalance features will work nicely with Mechalit Core.
 
-
-http://steamcommunity.com/sharedfiles/filedetails/?id=951016023/]# **[u] &gt;&gt;&gt; DeCore &lt;&lt;&lt; [/u]**
-
-
-	New resources are more likely to be found in other settlements, in bulk goods(not tribal) and exotic goods trader&apos;s stock. Mecha prosthetics can be bought only from orbital traders (to prevent easy obtainment through caravan robbery).
-	
-	If this mod will be successful, at least 3 more mods will be released soon:
-	Mechalit: Medicine (new med. techs and drugs, withdrawal cure, new plant and some other stuff)
-	Mechalit: Textile (textiles rebalance, synthread/hyperweave craft, new fabrics and carpets)
-	Mechalit: Mechanoids (new advanced mechanoids + stronger vanilla ones)
-	
+	New resources are more likely to be found in other settlements, in bulk goods(not tribal) and exotic goods trader's stock. Mecha prosthetics can be bought only from orbital traders (to prevent easy obtainment through caravan robbery).
+		
 	# **FEATURES:**
 
 	- 13 new research projects.
-	- You&apos;ll need to choose place for your colony more carefully, placing it closer to ancient boreholes, from which N-16 gas (very important resource) can be obtained.
+	- You'll need to choose place for your colony more carefully, placing it closer to ancient boreholes, from which N-16 gas (very important resource) can be obtained.
 	- The materials from which the workbenches, defense and furniture are created will play a more important role.
 	- A way to train crafters, sculptors and builders without spending too much resources.
 	- New barriers and charge turrets make survival without killbox more feasible.
-	- Mechaponics, that can grow all kinds of plants, even those that hydroponics can&apos;t.
+	- Mechaponics, that can grow all kinds of plants, even those that hydroponics can't.
 	- Stronger melee weapon can be made from new material.
 	- New elite beds will provide a first-class sleeping spot for your colonists.
 	- Mecha prostetics, that greatly increase your colonists capabilities.
@@ -51,7 +40,6 @@ http://steamcommunity.com/sharedfiles/filedetails/?id=951016023/]# **[u] &gt;&gt
 	
 	# **NEW METALS:**
 
-	New metals can be found as common ore on surface, or be obtained through deep drill mining.
 	- Tisnite: a very durable unflammable metal. Great choice for building walls and defences.
 	- Simerium: a light and ductile semiprecious metal. Is valued for its unusual color and unique properties - simerium workbenches proved to be very effective.
 	- Phasarium: A precious metal with healing properties. Perfect for building furniture (especially beds), sculptures and entertainment.
@@ -73,17 +61,16 @@ http://steamcommunity.com/sharedfiles/filedetails/?id=951016023/]# **[u] &gt;&gt
 	- Myrithium: an ultra-strong material. The best for building walls and defences.
 	- Vilanite: good look, high beauty, healing properties and high speed of work at bench.
 	- Element X-32: a great material for crafting melee weapon, also needed to create mecha prosthetics.
-	- Traimat: Training material (&quot;Traimat&quot; for short) - items and buildings are created for unbearably long. Used instead of other materials for training sculptors, builders and crafters.
+	- Traimat: Training material ("Traimat" for short) - items and buildings are created for unbearably long. Used instead of other materials for training sculptors, builders and crafters.
 	
 	# **NEW FLOORS:**
 
-	- 7 new types of tiles, made fromm new materials (4 are available from start, 3 are unlocked by the &quot;Synthesis&quot; research.)
+	- 7 new types of tiles, made fromm new materials (4 are available from start, 3 are unlocked by the "Synthesis" research.)
 	
 	# **NEW RESOURCE:**
 
 	- Mechanites: Container with mechanites. Mechanites are requred for creation of hi-tech materials, items and buildings.
-       - Energy cell: An ancient rare container with a huge supply of energy. It can be found in underground deposits of 1x1, and in ancient tombs. Needed to create a mecha generator and other items.
-		
+       - Energy cell: An ancient rare container with a huge supply of energy. It can be found in underground deposits of 1x1, and in ancient tombs. Needed to create a mecha generator and other items.		
 
 	# **NEW DEFENCES:**
 
@@ -97,7 +84,7 @@ http://steamcommunity.com/sharedfiles/filedetails/?id=951016023/]# **[u] &gt;&gt
 	
 	# **MECHA PROSTHETICS:**
 
-	- Added 4 new augmentations, as well as ability to craft them (probably some new will be added in future). These prosthetics are very expensive, but grant huge boost to colonist&apos;s stats.
+	- Added 4 new augmentations, as well as ability to craft them (probably some new will be added in future). These prosthetics are very expensive, but grant huge boost to colonist's stats.
 	- Mecha arm: 170% efficiency.
 	- Mecha leg: 170% efficiency.
 	- Mecha spine: +35% work and movement speed, blood filtration, blood pumping, eating, breathing and metabolism.
@@ -132,18 +119,6 @@ Mobile mecha-generator- generates free energy, forever, without using fuel. Infi
     - 10,000 power generation. Color - red.
     Each configuration opens with a separate study and is slightly more advantageous than the previous configuration.
     For example, 10k-configuration is 2.5 times more efficient than 4-k, and requires 2.2 times more resources.
-
-
-
-NonSteamLink A17: https://drive.google.com/open?id=0B26FJ48WulEATTA4WVRaNWVIQ2c
-NonSteamLink B18: https://drive.google.com/open?id=14KsH5pdMVZGSIF2tm2t-21XHDH3iUs0H
-NonSteamLink B19: https://drive.google.com/open?id=1vFLtK0QhkbfOwNkLpVYGtEEQjx9EIUTr
-
-Special thanks: Hrosts
-
-# **My PayPal: paypal.me/Daniledman **
-
-
 ![Image](https://i.imgur.com/Rs6T6cr.png)
 
 
