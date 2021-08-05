@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <RecipeDef Abstract="True" Name="RecipeMechaProte">
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workSkill>Crafting</workSkill>
+    <workAmount>32000</workAmount>
+    <recipeUsers>
+      <li>MechaLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>15</Crafting>
+    </skillRequirements>
+    <unfinishedThingDef>UnfinishedMechaPart</unfinishedThingDef>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeMechaProte">
+    <defName>CreateMechaArm</defName>
+    <label>Create mecha arm</label>
+    <description>Create mechanite arm.</description>
+    <jobString>Creating mechanite arm.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Myrithium</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Elementx</li>
+          </thingDefs>
+        </filter>
+        <count>55</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanites</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Myrithium</li>
+        <li>Elementx</li>
+        <li>Mechanites</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MechaArm>1</MechaArm>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeMechaProte">
+    <defName>CreateMechaLeg</defName>
+    <label>Create mecha leg</label>
+    <description>Create mechanite leg.</description>
+    <jobString>Creating mechanite leg.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Myrithium</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Elementx</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanites</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Myrithium</li>
+        <li>Elementx</li>
+        <li>Mechanites</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MechaLeg>1</MechaLeg>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeMechaProte">
+    <defName>CreateMechaSpine</defName>
+    <label>Create mecha spine</label>
+    <description>Create mechanite spine</description>
+    <jobString>Creating mechanite spine.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Myrithium</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Elementx</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanites</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Myrithium</li>
+        <li>Elementx</li>
+        <li>Mechanites</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MechaSpine>1</MechaSpine>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeMechaProte">
+    <defName>CreateMechaBrain</defName>
+    <label>Create mecha brain implant</label>
+    <description>Create mechanite brain implant.</description>
+    <jobString>Creating mechanite brain implant.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Myrithium</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Elementx</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanites</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsychicSoothePulser</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Myrithium</li>
+        <li>Elementx</li>
+        <li>Mechanites</li>
+        <li>PsychicSoothePulser</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MechaBrain>1</MechaBrain>
+    </products>
+  </RecipeDef>
+</Defs>

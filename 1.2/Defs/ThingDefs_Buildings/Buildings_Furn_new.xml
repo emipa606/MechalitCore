@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>Lamp-pot</defName>
+    <label>lamp-pot</label>
+    <description>Flower pot with backlight. Very nice and does not require electricity, because it uses energy cells for work.</description>
+    <thingClass>Building_PlantGrower</thingClass>
+    <graphicData>
+      <texPath>Furn/Lamp-pot2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.35, 0.3)</volume>
+        <offset>(0, 0, -0.28)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <uiIconScale>0.70</uiIconScale>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.20</fillPercent>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>450</WorkToBuild>
+      <Mass>3</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>50</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Energx>6</Energx>
+      <Eftam>20</Eftam>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+    <fertility>1</fertility>
+    <building>
+      <defaultPlantToGrow>Plant_Daylily</defaultPlantToGrow>
+      <sowTag>Decorative</sowTag>
+    </building>
+    <rotatable>false</rotatable>
+    <uiIconOffset>(0, -0.05)</uiIconOffset>
+    <researchPrerequisites>
+      <li>Autonomousfurniture</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef Abstract="True" Name="Lamp-potBase" ParentName="FurnitureWithQualityBase">
+    <description>Flower pot with backlight. Very nice and does not require electricity, because it uses energy cells for work.</description>
+    <thingClass>Building_PlantGrower</thingClass>
+    <graphicData>
+      <texPath>Furn/Lamp-pot2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(0.55, 0.35, 0.3)</volume>
+        <offset>(0, 0, -0.28)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <uiIconScale>0.70</uiIconScale>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.20</fillPercent>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>450</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>55</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Energx>6</Energx>
+      <Eftam>20</Eftam>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <fertility>1</fertility>
+    <building>
+      <defaultPlantToGrow>Plant_Daylily</defaultPlantToGrow>
+      <sowTag>Decorative</sowTag>
+    </building>
+    <rotatable>false</rotatable>
+    <uiIconOffset>(0, -0.05)</uiIconOffset>
+    <researchPrerequisites>
+      <li>Autonomousfurniture</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!--ThingDef ParentName="Lamp-potBase">
+    <defName>Lamp-potR</defName>
+    <label>lamp-pot (red)</label>
+    <graphicData>
+      <texPath>Furn/Lamp-pot2R</texPath>
+    </graphicData>
+    <comps>
+	  <li Class="CompProperties_Glower">
+        <glowColor>(217,80,80,0)</glowColor>
+		<glowRadius>9</glowRadius>
+      </li>
+    </comps>
+  </ThingDef>
+  
+    <ThingDef ParentName="Lamp-potBase">
+    <defName>Lamp-potG</defName>
+    <label>lamp-pot (green)</label>
+    <graphicData>
+      <texPath>Furn/Lamp-pot2G</texPath>
+    </graphicData>
+    <comps>
+	  <li Class="CompProperties_Glower">
+        <glowColor>(80,217,80,0)</glowColor>
+		<glowRadius>9</glowRadius>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="Lamp-potBase">
+    <defName>Lamp-potB</defName>
+    <label>lamp-pot (blue)</label>
+    <graphicData>
+      <texPath>Furn/Lamp-pot2B</texPath>
+    </graphicData>
+    <comps>
+	  <li Class="CompProperties_Glower">
+        <glowColor>(100,100,237,0)</glowColor>
+		<glowRadius>9</glowRadius>
+      </li>
+    </comps>
+  </ThingDef-->
+  <ThingDef ParentName="Lamp-potBase">
+    <defName>Lamp-potP</defName>
+    <label>lamp-pot (purple)</label>
+    <graphicData>
+      <texPath>Furn/Lamp-pot2P</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowColor>(217,80,227,0)</glowColor>
+        <glowRadius>9</glowRadius>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Lamp-potBase">
+    <defName>Lamp-potT</defName>
+    <label>lamp-pot (turquoise)</label>
+    <graphicData>
+      <texPath>Furn/Lamp-pot2T</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowColor>(80,227,227,0)</glowColor>
+        <glowRadius>9</glowRadius>
+      </li>
+    </comps>
+  </ThingDef>
+  <!--============================ Furniture ===============================-->
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>EliteDresserMeh</defName>
+    <label>Elite dresser</label>
+    <description>Provides comfort and efficiency of rest for all nearby beds. Placement of more than one chest beside one bed is not affected. Has a high index of beauty. Reproduces a quiet, throbbing sound that helps you fall asleep faster</description>
+    <graphicData>
+      <texPath>Furn2/Dresser</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.45</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <pathCost>50</pathCost>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Eftam>40</Eftam>
+      <Energx>5</Energx>
+    </costList>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <costStuffCount>50</costStuffCount>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>15</Mass>
+      <WorkToBuild>4000</WorkToBuild>
+      <Flammability>0.5</Flammability>
+      <Beauty>45</Beauty>
+    </statBases>
+    <size>(2,1)</size>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.25</Comfort>
+          <BedRestEffectiveness>0.25</BedRestEffectiveness>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <maxDistance>4</maxDistance>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>Autonomousfurniture</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!--============================ Furniture ===============================-->
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>IonizerMeh</defName>
+    <label>ionizer</label>
+    <description>A beautiful device, ionizes the room. Adds cleanliness. It will be necessary in the kitchen and in the hospital. Ionizer can also decorate any room. Uses energy cells for work.</description>
+    <graphicData>
+      <texPath>Furn2/Ionisator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.55, 0.35, 0.3)</volume>
+        <offset>(0, 0, -0.28)</offset>
+      </shadowData>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.20</fillPercent>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <WorkToBuild>6000</WorkToBuild>
+      <Mass>18</Mass>
+      <Flammability>0.7</Flammability>
+      <Cleanliness>70</Cleanliness>
+      <Beauty>35</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <Mechanites>1</Mechanites>
+      <Eftam>200</Eftam>
+      <Energx>8</Energx>
+    </costList>
+    <costStuffCount>100</costStuffCount>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(100,100,250,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(252,201,201,0)</glowColor>
+      </li>
+    </comps>
+    <rotatable>false</rotatable>
+    <uiIconOffset>(0,0.15)</uiIconOffset>
+    <uiIconScale>0.70</uiIconScale>
+    <researchPrerequisites>
+      <li>Autonomousfurniture</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

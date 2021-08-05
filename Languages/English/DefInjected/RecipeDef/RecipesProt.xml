@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CreateMechaArm.label>Create mecha arm</CreateMechaArm.label>
+  <CreateMechaArm.description>Create mecha arm</CreateMechaArm.description>
+  <CreateMechaArm.jobString>Creating mecha arm</CreateMechaArm.jobString>
+  <CreateMechaLeg.label>Create mecha leg</CreateMechaLeg.label>
+  <CreateMechaLeg.description>Create mecha leg</CreateMechaLeg.description>
+  <CreateMechaLeg.jobString>Creating mecha leg</CreateMechaLeg.jobString>
+  <CreateMechaSpine.label>Create mecha spine</CreateMechaSpine.label>
+  <CreateMechaSpine.description>Create mecha spine</CreateMechaSpine.description>
+  <CreateMechaSpine.jobString>Creating mecha spine</CreateMechaSpine.jobString>
+  <CreateMechaBrain.label>Create mecha brain implant</CreateMechaBrain.label>
+  <CreateMechaBrain.description>Create mecha brain implant</CreateMechaBrain.description>
+  <CreateMechaBrain.jobString>Creating mecha brain implant</CreateMechaBrain.jobString>
+</LanguageData>

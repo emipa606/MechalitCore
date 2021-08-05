@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Mechalit Core 1.2 (Continued)</name>
+  <packageId>Mlie.MechalitCore</packageId>
+  <author>Daniledman</author>
+  <url>https://github.com/emipa606/MechalitCore</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Daniledmans mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1141721293
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/MechalitCore][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+[b][h1]WHAT IS IT?[/h1][/b]
+
+	This mod is the core mod, first and main of the &quot;Mechalite&quot; mod series. It adds more diversity to the game by adding new materials, items, buildings and technologies. The gameplay will become more intresting, and you will have more things to do before leaving the planet.
+	[h1]Mod is compatible with old saves, though new colony is needed to be founded in order to obtain some new resources (new metal deposits and ancient boreholes will appear only on newly discovered locations).[/h1]
+	Mod is compatible with EPOE/RBSE and should not conflict with other mods on prostheses.
+	[h1]It is recommended to also install DeCore mod, its metal rebalance features will work nicely with Mechalit Core.[/h1]
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=951016023/][h1][b][u] &gt;&gt;&gt; DeCore &lt;&lt;&lt; [/u][/b][/h1][/url]
+
+	New resources are more likely to be found in other settlements, in bulk goods(not tribal) and exotic goods trader&apos;s stock. Mecha prosthetics can be bought only from orbital traders (to prevent easy obtainment through caravan robbery).
+	
+	If this mod will be successful, at least 3 more mods will be released soon:
+	Mechalit: Medicine (new med. techs and drugs, withdrawal cure, new plant and some other stuff)
+	Mechalit: Textile (textiles rebalance, synthread/hyperweave craft, new fabrics and carpets)
+	Mechalit: Mechanoids (new advanced mechanoids + stronger vanilla ones)
+	
+	[h1][b]FEATURES:[/b][/h1]
+	- 13 new research projects.
+	- You&apos;ll need to choose place for your colony more carefully, placing it closer to ancient boreholes, from which N-16 gas (very important resource) can be obtained.
+	- The materials from which the workbenches, defense and furniture are created will play a more important role.
+	- A way to train crafters, sculptors and builders without spending too much resources.
+	- New barriers and charge turrets make survival without killbox more feasible.
+	- Mechaponics, that can grow all kinds of plants, even those that hydroponics can&apos;t.
+	- Stronger melee weapon can be made from new material.
+	- New elite beds will provide a first-class sleeping spot for your colonists.
+	- Mecha prostetics, that greatly increase your colonists capabilities.
+        - Strengthening archo prosthesis
+	- Craft AI Core
+	- The new autonomous furniture
+	- Mecha generator
+	
+[h1][b]DETAILED DESCRIPTION:[/b][/h1]
+	
+	[h1][b]NEW METALS:[/b][/h1]
+	New metals can be found as common ore on surface, or be obtained through deep drill mining.
+	- Tisnite: a very durable unflammable metal. Great choice for building walls and defences.
+	- Simerium: a light and ductile semiprecious metal. Is valued for its unusual color and unique properties - simerium workbenches proved to be very effective.
+	- Phasarium: A precious metal with healing properties. Perfect for building furniture (especially beds), sculptures and entertainment.
+	
+	[h1][b]MORE UNDERGROUND DEPOSITS:[/b][/h1]
+	To ensure that new metals will not completely replace the deposits of vanilla resources, the number of underground deposits has been increased.
+	
+	[h1][b]ANCIENT BOREHOLES:[/b][/h1]
+	New undestructible building that can be found on the map right after start. They are used to extract a valuable resource - N-16 gas.
+	N-16 gas is required for synthesis of new materials and also can be recycled into chemfuel.
+	New building: micro-scanner. Placed near borehole, increases gas extractions speed. Maximum 4 scanners for borehole.
+	
+	[h1][b]NEW MATERIALS:[/b][/h1]
+	New building: gas converter. Used to synthesise new materials
+	- Eftam: low quality and bad properties, but very cheap and easy to produce.
+	- Myrithium: an ultra-strong material. The best for building walls and defences.
+	- Vilanite: good look, high beauty, healing properties and high speed of work at bench.
+	- Element X-32: a great material for crafting melee weapon, also needed to create mecha prosthetics.
+	- Traimat: Training material (&quot;Traimat&quot; for short) - items and buildings are created for unbearably long. Used instead of other materials for training sculptors, builders and crafters.
+	
+	[h1][b]NEW FLOORS:[/b][/h1]
+	- 7 new types of tiles, made fromm new materials (4 are available from start, 3 are unlocked by the &quot;Synthesis&quot; research.)
+	
+	[h1][b]NEW RESOURCE:[/b][/h1]
+	- Mechanites: Container with mechanites. Mechanites are requred for creation of hi-tech materials, items and buildings.
+       - Energy cell: An ancient rare container with a huge supply of energy. It can be found in underground deposits of 1x1, and in ancient tombs. Needed to create a mecha generator and other items.
+		
+
+	[h1][b]NEW DEFENCES:[/b][/h1]
+	- Barrier: light enough to be carried by caravan. Can be reinstalled. Slows movement tremendously. Provides twice more effective cover than sandbags. Available from start.
+	- Reinforced barrier: an upgraded version of barrier, unlocked through research: provides better cover and greater slowdown.
+	- Charge turret: Weakly protected turret with increased accuracy and range. Shoots energy projectiles that deal 16 damage, every 1.35 seconds. Great for dispatching single targets.
+	
+	[h1][b]ELITE BEDS:[/b][/h1]
+	- Added 3 new bed types (1 single and 2 double). They have huge values of beauty, comfort and rest effectiveness and uncommon size - 1x3 and 2x3.
+	
+	[h1][b]MECHA PROSTHETICS:[/b][/h1]
+	- Added 4 new augmentations, as well as ability to craft them (probably some new will be added in future). These prosthetics are very expensive, but grant huge boost to colonist&apos;s stats.
+	- Mecha arm: 170% efficiency.
+	- Mecha leg: 170% efficiency.
+	- Mecha spine: +35% work and movement speed, blood filtration, blood pumping, eating, breathing and metabolism.
+	- Mecha brain implant: +35% conciousness, sight, talking, hearing and +15 mood boost.
+
+       [h1][b]IMPROVED ARCHO PROSTHESIS:[/b][/h1]
+	- Archotech eye: efficiency 150%&gt; 200%
+	- Archotech arm: efficiency 150%&gt; 200%
+	- Archotech leg: efficiency 150%&gt; 200%
+	
+	[h1][b]THE NEW AUTONOMOUS FURNITURE[/b][/h1]
+	- Pot-light (three colors: white, purple, turquoise): Flower pot with illumination.
+	Very nice and does not require electricity, because it uses energy cells for work.
+        - Elite dresser: Provides comfort and efficiency of rest for all nearby beds.
+       Overlapping more than one chest next to one bed is not affected. Has a high index of beauty.
+	Reproduces a quiet, pulsating sound that helps you fall asleep faster
+       - Ionizer: A beautiful device, ionizes the room. Adds cleanliness. It will be necessary in the kitchen and in the 
+       hospital.
+        Ionizer can also decorate any room. Uses energy cells for work.
+	
+	[h1][b]MECHA GENERATORS[/b][/h1]
+Mobile mecha-generator- generates free energy, forever, without using fuel. Infinitely produces electricity (450W) using power cells. A very useful generator in the campaigns or when you need to connect a drill on the other end of the card and there is no desire to lay the wires.
+
+	Infinitely produces energy, does not need refueling. Mecha generator uses the energy cells used to build it.
+    Includes 4 configurations:
+    - 4000 power generation. Green colour.
+    - 6000 power generation. The color is blue.
+    - 8000 power generation. Color - purple.
+    - 10,000 power generation. Color - red.
+    Each configuration opens with a separate study and is slightly more advantageous than the previous configuration.
+    For example, 10k-configuration is 2.5 times more efficient than 4-k, and requires 2.2 times more resources.
+
+
+
+NonSteamLink A17: https://drive.google.com/open?id=0B26FJ48WulEATTA4WVRaNWVIQ2c
+NonSteamLink B18: https://drive.google.com/open?id=14KsH5pdMVZGSIF2tm2t-21XHDH3iUs0H
+NonSteamLink B19: https://drive.google.com/open?id=1vFLtK0QhkbfOwNkLpVYGtEEQjx9EIUTr
+
+Special thanks: Hrosts
+
+[h1][b]My PayPal: paypal.me/Daniledman [/b][/h1]
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
+</ModMetaData>
+

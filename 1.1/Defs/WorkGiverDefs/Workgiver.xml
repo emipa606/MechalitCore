@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBillsAncientborehole</defName>
+    <label>work at Ancient borehole</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>BoreholeGas</workType>
+    <priorityInType>45</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Ancientborehole</li>
+    </fixedBillGiverDefs>
+    <verb>Min-gas</verb>
+    <gerund>Mining gas</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>DoBillsGasconverter</defName>
+    <label>work at Gasconverter</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>130</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Gasconverter</li>
+    </fixedBillGiverDefs>
+    <verb>Gas-conv</verb>
+    <gerund>crafting gasconverter</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>DoBillsMechaLab</defName>
+    <label>work at Mecha Lab</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>120</priorityInType>
+    <fixedBillGiverDefs>
+      <li>MechaLab</li>
+    </fixedBillGiverDefs>
+    <verb>mecha-lab</verb>
+    <gerund>crafting meha-lab</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+</Defs>

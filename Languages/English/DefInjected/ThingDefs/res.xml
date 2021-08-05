@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Tisnit.label>Tisnite</Tisnit.label>
+  <Tisnit.description>A durable and inflammable metal primarily used for walls and defenses.</Tisnit.description>
+  <Simerium.label>Simerium</Simerium.label>
+  <Simerium.description>A light and ductile semiprecious metal valued for its unusual color and unique properties primarily used in the construction of workbenches.</Simerium.description>
+  <Phasarium.label>Phasarium</Phasarium.label>
+  <Phasarium.description>A precious metal valued for its beauty and healing properties primarily used in recreational objects and hospital equipment. Unfortunately phasarium is an awful material for walls and defenses due to its high flammability.</Phasarium.description>
+  <Eftam.label>Eftam</Eftam.label>
+  <Eftam.description>An alloy of steel and silicon which is cheap and easily produced but has poor qualities and isn't very sturdy. Can be used in place of more expensive metals in a pinch.</Eftam.description>
+  <Myrithium.label>Myrithium</Myrithium.label>
+  <Myrithium.description>An incredibly strong material made from the synthesis of eftam and N-16 gas that is the best choice for walls and defense. Works great for traps and melee weapons as well.</Myrithium.description>
+  <Vilanit.label>Vilanite</Vilanit.label>
+  <Vilanit.description>A unique material made from the synthesis of simerium and phasarium using N-16 gas. Vilanite is a combination of all the best qualities from the original materials so you will find it used in almost all high quality furniture.</Vilanit.description>
+  <Elementx.label>Element X-32</Elementx.label>
+  <Elementx.description>A mysterious substance thats full potential has yet to be unlocked by scientists. What little is known about X-32 is that when rapidly accelerated it becomes incredibly light and emits some sort of energy making it perfect for melee weapons but not much else.</Elementx.description>
+  <Teachmat.label>Traimat</Teachmat.label>
+  <Teachmat.description>Training material, traimat for short, is a material designed and created for the sole purpose of training artisans and architects while keeping material cost low. Traimat is designed to return to its original shape so finishing a project with it is almost impossible.</Teachmat.description>
+  <Gasnenkj.label>N-16 gas</Gasnenkj.label>
+  <Gasnenkj.description>A unique gas extracted from ancient boreholes used in the synthesis of most mechalit materials. Can also be used in a gas converter to create chemfuel.</Gasnenkj.description>
+  <Mechanites.label>Mechanites</Mechanites.label>
+  <Mechanites.description>A container full of high grade mechanites used in the creation of advanced materials, objects, and buildings.</Mechanites.description>
+  <Energx.label>Energу cell</Energx.label>
+  <Energx.description>An ancient power source with a near infinite amount of energy stored inside. These energy cells are incredibly rare and can be reliably found in a few places.</Energx.description>
+</LanguageData>

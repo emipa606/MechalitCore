@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ResConverter.label>Gas converter</ResConverter.label>
+  <ResConverter.description>Build gas converters to synthesize Mechalit materials from combining other materials with N-16 gas.</ResConverter.description>
+  <ResTeachmat.label>Traimat</ResTeachmat.label>
+  <ResTeachmat.description>A unique material designed to help train pawns as this material is cheap to make, hard to use, and is almost completely worthless.</ResTeachmat.description>
+  <ResSynthesis.label>Synthesis</ResSynthesis.label>
+  <ResSynthesis.description>Allows you to synthesize more complex materials in the gas converter and unlocks a few new floor types.</ResSynthesis.description>
+  <Autonomousfurniture.label>Autonomous furniture</Autonomousfurniture.label>
+  <Autonomousfurniture.description>High-tech furniture, powered internally by expensive energy cells, lavishly decorates any room. Energy cells are a rare material found only in a few places.</Autonomousfurniture.description>
+  <ResMechanites.label>Mechanites</ResMechanites.label>
+  <ResMechanites.description>Allows the creation of mechanites which are used in high-tech structures and recipes. Unlocks the ability to build micro-scanners and mobile mecha-generators.</ResMechanites.description>
+  <ResMechaponicBox.label>Mechaponics</ResMechaponicBox.label>
+  <ResMechaponicBox.description>Build an upgraded form of hydroponics basins that use mechanites to increase growth speed and allow all forms of plants to be grown regardless of the terrain or weather outside. Although mechaponics come with lamps built in, they are quite expensive and use a lot of power.</ResMechaponicBox.description>
+  <ResEliteBeds.label>Elite beds</ResEliteBeds.label>
+  <ResEliteBeds.description>Build mechanite infused, high-tech, beds that are even more beautiful and comfortable than their standard equivalent. Mechanites in these beds actively work to give you a light massage while you sleep.</ResEliteBeds.description>
+  <ResDefense.label>Advanced defences</ResDefense.label>
+  <ResDefense.description>Build reinforced barriers and charge turrets.</ResDefense.description>
+  <ResMechaProstheses.label>Mecha prosthetics</ResMechaProstheses.label>
+  <ResMechaProstheses.description>Build and attach high-tech, mechanite infused, artificial augmentations to replace lost, damaged, or insufficient body parts. These prosthetics are a clear upgrade to the generic bionics commonly found on glitterworlds.</ResMechaProstheses.description>
+  <ResAICore.label>AI persona core</ResAICore.label>
+  <ResAICore.description>Allows you to build AI persona core.</ResAICore.description>
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EftamTile.label>Eftam tile</EftamTile.label>
+  <EftamTile.description>Rough eftam tiles.\nBeauty: -1.</EftamTile.description>
+  <TisnitTile.label>Tisnite tile</TisnitTile.label>
+  <TisnitTile.description>Neat tisnite tiles.\nBeauty: 1.</TisnitTile.description>
+  <SimeriumTile.label>Simerium tile</SimeriumTile.label>
+  <SimeriumTile.description>Neat simerium tiles.\nBeauty: 2.</SimeriumTile.description>
+  <PhasariumTile.label>Phasarium tile</PhasariumTile.label>
+  <PhasariumTile.description>Neat phasarium tiles.\nBeauty: 3.</PhasariumTile.description>
+  <MyrithiumTile.label>Myrithium tile</MyrithiumTile.label>
+  <MyrithiumTile.description>Neat myrithium tiles. Incredibly slow to build.\nBeauty: 3.</MyrithiumTile.description>
+  <VilanitTile.label>Vilanite tile</VilanitTile.label>
+  <VilanitTile.description>Neat vilanite tiles. Incredibly slow to build.\nBeauty: 5.</VilanitTile.description>
+  <IonizingTile.label>Ionizing tile</IonizingTile.label>
+  <IonizingTile.description>Ionizing tiles with bacteria killing properties. Insanely slow to build but very beautiful and very clean so it's totally worth it. \nBeauty: 2 \nCleanliness: 1.4</IonizingTile.description>
+</LanguageData>

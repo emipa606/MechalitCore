@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName = "Base_Outlander_Standard"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Tisnit</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>250</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Simerium</thingDef>
+        <countRange>
+          <min>-100</min>
+          <max>250</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Phasarium</thingDef>
+        <countRange>
+          <min>-100</min>
+          <max>300</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Eftam</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>750</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Myrithium</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>150</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Vilanit</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>150</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Elementx</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>100</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Teachmat</thingDef>
+        <countRange>
+          <min>-100</min>
+          <max>300</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Gasnenkj</thingDef>
+        <countRange>
+          <min>200</min>
+          <max>900</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Mechanites</thingDef>
+        <countRange>
+          <min>-30</min>
+          <max>20</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Energx</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>120</max>
+        </countRange>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Tisnit</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>50</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Simerium</thingDef>
+        <countRange>
+          <min>-100</min>
+          <max>50</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Phasarium</thingDef>
+        <countRange>
+          <min>-100</min>
+          <max>100</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Eftam</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>350</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Myrithium</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>50</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Vilanit</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>50</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Elementx</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>30</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Teachmat</thingDef>
+        <countRange>
+          <min>-100</min>
+          <max>100</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Gasnenkj</thingDef>
+        <countRange>
+          <min>50</min>
+          <max>200</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Mechanites</thingDef>
+        <countRange>
+          <min>-10</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Energx</thingDef>
+        <countRange>
+          <min>-10</min>
+          <max>25</max>
+        </countRange>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Myrithium</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>50</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Vilanit</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>50</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Elementx</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>30</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Mechanites</thingDef>
+        <countRange>
+          <min>-10</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Energx</thingDef>
+        <countRange>
+          <min>-10</min>
+          <max>25</max>
+        </countRange>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Tisnit</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>250</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Simerium</thingDef>
+        <countRange>
+          <min>-100</min>
+          <max>250</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Phasarium</thingDef>
+        <countRange>
+          <min>-100</min>
+          <max>300</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Eftam</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>750</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Myrithium</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>150</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Vilanit</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>150</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Elementx</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>100</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Teachmat</thingDef>
+        <countRange>
+          <min>-100</min>
+          <max>300</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Gasnenkj</thingDef>
+        <countRange>
+          <min>200</min>
+          <max>900</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Mechanites</thingDef>
+        <countRange>
+          <min>-30</min>
+          <max>20</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Energx</thingDef>
+        <countRange>
+          <min>-10</min>
+          <max>45</max>
+        </countRange>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName = "Orbital_Exotic"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Myrithium</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>250</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Vilanit</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>250</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Elementx</thingDef>
+        <countRange>
+          <min>-50</min>
+          <max>230</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Mechanites</thingDef>
+        <countRange>
+          <min>-10</min>
+          <max>50</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Energx</thingDef>
+        <countRange>
+          <min>-10</min>
+          <max>45</max>
+        </countRange>
+      </li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <HediffDef Name="MechaProtHeddif" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0,255,200)</defaultLabelColor>
+    <!--addedPartProps>
+         <isBionic>true</isBionic>
+         <isSolid>true</isSolid>
+      </addedPartProps-->
+  </HediffDef>
+  <HediffDef Name="MechaImplant" Abstract="True">
+    <hediffClass>Hediff_Implant</hediffClass>
+    <defaultLabelColor>(0,255,150)</defaultLabelColor>
+    <isBad>false</isBad>
+    <!--addedPartProps>
+         <isBionic>true</isBionic>
+         <isSolid>true</isSolid>
+      </addedPartProps-->
+  </HediffDef>
+  <HediffDef ParentName="MechaProtHeddif">
+    <defName>MechaArmHed</defName>
+    <label>MECHA ARM</label>
+    <labelNoun>a mecha arm</labelNoun>
+    <description>An installed mecha arm.</description>
+    <spawnThingOnRemoved>MechaArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.7</partEfficiency>
+    </addedPartProps>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>16</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="MechaProtHeddif">
+    <defName>MechaLegHed</defName>
+    <label>MECHA LEG</label>
+    <labelNoun>a mecha leg</labelNoun>
+    <description>An installed mecha leg.</description>
+    <spawnThingOnRemoved>MechaLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.7</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MechaProtHeddif">
+    <defName>MechaSpineHed</defName>
+    <label>MECHA SPINE</label>
+    <labelNoun>a mecha spine</labelNoun>
+    <description>An installed mecha spine.</description>
+    <spawnThingOnRemoved>MechaSpine</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.35</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.35</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>0.35</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.35</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.35</offset>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.35</offset>
+          </li>
+          <li>
+            <capacity>Eating</capacity>
+            <offset>0.35</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="MechaImplant">
+    <defName>MechaBrainHed</defName>
+    <label>MECHA BRAIN IMPLANT</label>
+    <labelNoun>a mecha brain implant</labelNoun>
+    <description>An installed mecha brain implant.</description>
+    <spawnThingOnRemoved>MechaBrain</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.35</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.35</offset>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <offset>0.35</offset>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>0.35</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Extractgasn.label>Extract N-16 gas</Extractgasn.label>
+  <Extractgasn.description>Extract N-16 gas. Extraction of seven units of the gas requires one unit of steel for drilling. Extraction speed is highly dependent on the mining skill.</Extractgasn.description>
+  <Extractgasn.jobString>Extracting N-16 gas</Extractgasn.jobString>
+  <MakeEftam.label>Synthesize Eftam</MakeEftam.label>
+  <MakeEftam.description>Synthesize eftam by exposing steel and stone blocks to N-16 gas. Produces 50 eftam.</MakeEftam.description>
+  <MakeEftam.jobString>Synthesizing eftam</MakeEftam.jobString>
+  <MakeChemfuelFromGas.label>Make chemfuel</MakeChemfuelFromGas.label>
+  <MakeChemfuelFromGas.description>Synthesize chemfuel by exposing eftam to N-16 gas. Produces 30 chemfuel.</MakeChemfuelFromGas.description>
+  <MakeChemfuelFromGas.jobString>Synthesizing chemfuel</MakeChemfuelFromGas.jobString>
+  <MakeTeachmat.label>Synthesize traimat</MakeTeachmat.label>
+  <MakeTeachmat.description>Synthesize traimat by exposing a steel slag chunk, a component, and simerium to N-16 gas. Traimat is best used in training pawns. Produces 250 traimat.</MakeTeachmat.description>
+  <MakeTeachmat.jobString>Synthesizing traimat</MakeTeachmat.jobString>
+  <MakeMyrithium.label>Synthesize myrithium x30</MakeMyrithium.label>
+  <MakeMyrithium.description>Synthesize myrithium by exposing tisnite and eftam to N-16 gas. Produces 30 myrithium.</MakeMyrithium.description>
+  <MakeMyrithium.jobString>Synthesizing myrithium</MakeMyrithium.jobString>
+  <MakeVilanit.label>Synthesize vilanite x30</MakeVilanit.label>
+  <MakeVilanit.description>Synthesize vilanite by exposing simerium and phasarium to N-16 gas. Produces 30 vilanite.</MakeVilanit.description>
+  <MakeVilanit.jobString>Synthesizing vilanite</MakeVilanit.jobString>
+  <MakeElementx.label>Synthesize element X-32</MakeElementx.label>
+  <MakeElementx.description>Synthesize vilanite by exposing simerium and phasarium to N-16 gas. Produces 30 element X-32.</MakeElementx.description>
+  <MakeElementx.jobString>Synthesizing element X-32</MakeElementx.jobString>
+  <MakeMechanites.label>Synthesize mechanites</MakeMechanites.label>
+  <MakeMechanites.description>Synthesize mechanites by exposing components and silver to N-16 gas.</MakeMechanites.description>
+  <MakeMechanites.jobString>Synthesizing mechanites</MakeMechanites.jobString>
+  <MakeAICoreMeh.label>Make AI persona core</MakeAICoreMeh.label>
+  <MakeAICoreMeh.description>Make AI persona core</MakeAICoreMeh.description>
+  <MakeAICoreMeh.jobString>Making AI persona core</MakeAICoreMeh.jobString>
+  <MakeLuciferiumM.label>Synthesize luciferium х5</MakeLuciferiumM.label>
+  <MakeLuciferiumM.description>Synthesize luciferium by exposing mehanites, devilstrand and penoxycyline.</MakeLuciferiumM.description>
+  <MakeLuciferiumM.jobString>Synthesizing luciferium</MakeLuciferiumM.jobString>
+</LanguageData>

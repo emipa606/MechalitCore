@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TerrainDef Abstract="True" ParentName="FloorBase" Name="MechaFloor1Base">
+    <renderPrecedence>70</renderPrecedence>
+    <texturePath>Terrain/SynthesisFloor</texturePath>
+    <designatorDropdown>Floor_MechaFloor</designatorDropdown>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+  </TerrainDef>
+  <TerrainDef Abstract="True" ParentName="FloorBase" Name="MechaFloor2Base">
+    <renderPrecedence>75</renderPrecedence>
+    <texturePath>Terrain/SynthesisFloor3</texturePath>
+    <designatorDropdown>Floor_MechaFloor2</designatorDropdown>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+  </TerrainDef>
+  <!-- ================= Misc ================= -->
+  <TerrainDef ParentName="FloorBase">
+    <defName>EftamTile</defName>
+    <label>eftam tile</label>
+    <description>Rough eftam tiles.\n Beauty: -1.</description>
+    <texturePath>Terrain/PavedTileEftamTex3</texturePath>
+    <color>(0.45, 0.46, 0.55)</color>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>71</renderPrecedence>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <WorkToBuild>150</WorkToBuild>
+    </statBases>
+    <costList>
+      <Eftam>1</Eftam>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+  </TerrainDef>
+  <TerrainDef ParentName="MechaFloor1Base">
+    <defName>TisnitTile</defName>
+    <label>tisnit tile</label>
+    <description>Neat tisnite tiles.\n Beauty: 1.</description>
+    <color>(224,183,139)</color>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>72</renderPrecedence>
+    <statBases>
+      <Beauty>1</Beauty>
+      <WorkToBuild>850</WorkToBuild>
+    </statBases>
+    <costList>
+      <Tisnit>3</Tisnit>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+  </TerrainDef>
+  <TerrainDef ParentName="MechaFloor1Base">
+    <defName>SimeriumTile</defName>
+    <label>simerium tile</label>
+    <description>Neat simerium tiles.\n Beauty: 2.</description>
+    <color>(115,158,149)</color>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>73</renderPrecedence>
+    <statBases>
+      <Beauty>2</Beauty>
+      <WorkToBuild>800</WorkToBuild>
+    </statBases>
+    <costList>
+      <Simerium>3</Simerium>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+  </TerrainDef>
+  <TerrainDef ParentName="MechaFloor1Base">
+    <defName>PhasariumTile</defName>
+    <label>phasarium tile</label>
+    <description>Neat phasarium tiles.\n Beauty: 3.</description>
+    <color>(160,141,154)</color>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>74</renderPrecedence>
+    <statBases>
+      <Beauty>3</Beauty>
+      <WorkToBuild>850</WorkToBuild>
+    </statBases>
+    <costList>
+      <Phasarium>3</Phasarium>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+  </TerrainDef>
+  <TerrainDef ParentName="MechaFloor2Base">
+    <defName>MyrithiumTile</defName>
+    <label>myrithium tile</label>
+    <description>Neat myrithium tiles. Performed in a checkerboard style.\n Beauty: 3.</description>
+    <color>(186,146,137)</color>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>75</renderPrecedence>
+    <statBases>
+      <Beauty>3</Beauty>
+      <WorkToBuild>2850</WorkToBuild>
+    </statBases>
+    <costList>
+      <Myrithium>3</Myrithium>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>ResSynthesis</li>
+    </researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="MechaFloor2Base">
+    <defName>VilanitTile</defName>
+    <label>vilanite tile</label>
+    <description>Neat beautiful vilanite tiles. Performed in a checkerboard style.\n Beauty: 5.</description>
+    <color>(138,137,178)</color>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>76</renderPrecedence>
+    <statBases>
+      <Beauty>5</Beauty>
+      <WorkToBuild>2650</WorkToBuild>
+    </statBases>
+    <costList>
+      <Vilanit>3</Vilanit>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>ResSynthesis</li>
+    </researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="FloorBase">
+    <defName>IonizingTile</defName>
+    <label>ionizing tile</label>
+    <description>Ionizing tiles, that kill all harmful bacterial in the room. Very clean.\n Beauty: 2.\n Cleanliness: 1.4.</description>
+    <texturePath>Terrain/IonTex</texturePath>
+    <color>(0.8, 0.9, 0.99)</color>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>77</renderPrecedence>
+    <statBases>
+      <Beauty>2</Beauty>
+      <WorkToBuild>3750</WorkToBuild>
+      <Cleanliness>1.4</Cleanliness>
+    </statBases>
+    <costList>
+      <Vilanit>10</Vilanit>
+      <Silver>35</Silver>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>ResSynthesis</li>
+    </researchPrerequisites>
+  </TerrainDef>
+  <!--TerrainDef ParentName="FloorBase">
+    <defName>SterileTile</defName>
+    <label>sterile tile</label>
+    <renderPrecedence>243</renderPrecedence>
+    <description>Sterile tiles help keep the room clean. Very useful in hospitals to prevent patients from getting various infections. Neutral in terms of looks and very slow to build.</description>
+    <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+    <color>(0.71, 0.71, 0.71)</color>
+    <statBases>
+      <Cleanliness>0.6</Cleanliness>
+      <WorkToBuild>1650</WorkToBuild>
+    </statBases>
+    <costList>
+      <Steel>3</Steel>
+      <Silver>15</Silver>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotkey>Misc4</designationHotkey>
+  </TerrainDef-->
+</Defs>

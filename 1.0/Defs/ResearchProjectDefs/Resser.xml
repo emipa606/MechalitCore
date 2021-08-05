@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>ResConverter</defName>
+    <label>Gas converter</label>
+    <description>Used to create advanced materials using N-16 gas. At the beginning, only eftam and chemfuel recipes are available, other can be unlocked by research.</description>
+    <baseCost>1100</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>12</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Autonomousfurniture</defName>
+    <label>Autonomous furniture</label>
+    <description>High-tech furniture. Decorates the room and does not require electricity. Autonomous furniture uses a rare resource for work - energy cells. Energy cells can not be produced, they can only be found in merchants, underground deposits of 1x1 and in ancient tombs.</description>
+    <baseCost>1600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ResConverter</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>12</researchViewX>
+    <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResTeachmat</defName>
+    <label>Traimat</label>
+    <description>A unique material, useful for training. Creation of any item or buildings from traimat requires huge amount of time. This allows you train your sculptors, builders and crafters without spending other resources.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ResConverter</li>
+    </prerequisites>
+    <researchViewX>12</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResSynthesis</defName>
+    <label>Synthesis</label>
+    <description>Allows you to synthesize materials like myrithium, vilanite and element X-32. Research also unlocks new floor tiles: myrithium tile, vilanite tile, ionizing tile.</description>
+    <baseCost>2200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ResConverter</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>12</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResMechanites</defName>
+    <label>Mechanites</label>
+    <description>Research allows you to create mechanites, required to make hi-tech items.\nBuildings unlocked: micro-scanner, mobile mecha-generator.</description>
+    <baseCost>2800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ResConverter</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>12</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResMechaponicBox</defName>
+    <label>Mechaponic box</label>
+    <description>Research unlocks mechaponics - a hi-tech hydroponics, that uses mechanites to accelerate plant growth. Trees, devilstrand, corn, haygrass and other plants, that can't be grown on common hydroponics, can be grown on mechaponics. It's very expensive and consumes a lot of power, but allows to grow rare plants very quickly (900% fertility) and without sunlamps (mechaponics has it's own).</description>
+    <baseCost>2400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ResMechanites</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>12</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResEliteBeds</defName>
+    <label>Elite beds</label>
+    <description>Research unlocks 3 types of elite bed with high beauty, rest effectiveness and comfort.</description>
+    <baseCost>3100</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ResMechanites</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>13</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResDefense</defName>
+    <label>Advanced defences</label>
+    <description>Research unlocks reinforced barrier and charge turret.</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ResMechanites</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>13</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResMechaProstheses</defName>
+    <label>Mechanite prosthetics</label>
+    <description>Mechanite prosthetics are hi-tech augmentations made from myrithium, element X-32 and mechanites. They greatly increase almost all pawn's stats, making him or her better, faster, stronger... even happier. This research allows you to install bought or found mecha prostetics, as well as create your own on special workbench (also unlocked by research).</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>ResMechanites</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>13</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResAICore</defName>
+    <label>AI Core</label>
+    <description>Allows you to build Persona Core.</description>
+    <baseCost>7500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>ResMechanites</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>14</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+</Defs>

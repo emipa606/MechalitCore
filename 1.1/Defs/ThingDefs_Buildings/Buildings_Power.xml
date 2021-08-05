@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>MechaMiniGen</defName>
+    <label>mobile mecha-generator</label>
+    <description>Generates free energy, forever, without using fuel. Infinitely produces electricity (450W) using power cells. A very useful generator in the campaigns or when you need to connect a drill on the other end of the card and there is no desire to lay the wires.</description>
+    <graphicData>
+      <texPath>Power/MiniGen</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2, 2)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <pathCost>70</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <uiIconScale>0.60</uiIconScale>
+    <uiIconOffset>(0,0.05)</uiIconOffset>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>ResMechanites</li>
+    </researchPrerequisites>
+    <statBases>
+      <WorkToBuild>3500</WorkToBuild>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>12</Mass>
+    </statBases>
+    <costList>
+      <Steel>120</Steel>
+      <Tisnit>15</Tisnit>
+      <Energx>10</Energx>
+      <Mechanites>1</Mechanites>
+    </costList>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <size>(1, 1)</size>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-450</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(100,250,100,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(250,100,100,0)</glowColor>
+      </li>
+    </comps>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef Abstract="True" Name="MechaGenBase" ParentName="BuildingBase">
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Power/MechaGenR</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+      <shadowData>
+        <volume>(3.5,0.75,3.4)</volume>
+        <offset>(0,0,0)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0,0.6,4,2.8)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>250</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>1.0</fillPercent>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(4,4)</size>
+    <building>
+      <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+    </building>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+    <designatorDropdown>MechaGenBaseDesign</designatorDropdown>
+  </ThingDef>
+  <ThingDef ParentName="MechaGenBase">
+    <defName>MechaGen4k</defName>
+    <label>Mecha generator(4k)</label>
+    <description>Powerful generator (Green color. Energy output: 4000). Infinitely produces energy, does not need refueling. The mecha generator uses the energy cells, the installation for its construction.</description>
+    <graphicData>
+      <texPath>Power/MechaGenG</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+      <WorkToBuild>17500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <costList>
+      <Steel>500</Steel>
+      <Myrithium>100</Myrithium>
+      <Energx>50</Energx>
+      <Mechanites>6</Mechanites>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-4000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(100,250,150,0)</glowColor>
+      </li>
+    </comps>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>MechaGen4kRes</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="MechaGenBase">
+    <defName>MechaGen6k</defName>
+    <label>Mecha generator(6k)</label>
+    <description>Powerful generator (Blue color. Energy output: 6000). Infinitely produces energy, does not need refueling. The mecha generator uses the energy cells, the installation for its construction.</description>
+    <graphicData>
+      <texPath>Power/MechaGenB</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+      <WorkToBuild>22500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <costList>
+      <Steel>700</Steel>
+      <Myrithium>140</Myrithium>
+      <Energx>70</Energx>
+      <Mechanites>8</Mechanites>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-6000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(100,150,250,0)</glowColor>
+      </li>
+    </comps>
+    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>MechaGen6kRes</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="MechaGenBase">
+    <defName>MechaGen8k</defName>
+    <label>Mecha generator(8k)</label>
+    <description>Powerful generator (Violet color. Energy output: 8000). Infinitely produces energy, does not need refueling. The mecha generator uses the energy cells, the installation for its construction.</description>
+    <graphicData>
+      <texPath>Power/MechaGenV</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1600</MaxHitPoints>
+      <WorkToBuild>26500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <costList>
+      <Steel>900</Steel>
+      <Myrithium>180</Myrithium>
+      <Energx>90</Energx>
+      <Mechanites>10</Mechanites>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-8000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(200,100,250,0)</glowColor>
+      </li>
+    </comps>
+    <constructionSkillPrerequisite>14</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>MechaGen8kRes</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="MechaGenBase">
+    <defName>MechaGen10k</defName>
+    <label>Mecha generator(10k)</label>
+    <description>Powerful generator (Red color. Energy output: 10000). Infinitely produces energy, does not need refueling. The mecha generator uses the energy cells, the installation for its construction.</description>
+    <graphicData>
+      <texPath>Power/MechaGenR</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <WorkToBuild>33500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <costList>
+      <Steel>1100</Steel>
+      <Myrithium>220</Myrithium>
+      <Energx>110</Energx>
+      <Mechanites>12</Mechanites>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-10000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(250,100,100,0)</glowColor>
+      </li>
+    </comps>
+    <constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>MechaGen10kRes</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

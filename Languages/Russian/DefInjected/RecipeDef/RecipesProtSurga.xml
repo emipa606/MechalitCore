@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <InstallMechaArm.label>Установить меха руку</InstallMechaArm.label>
+  <InstallMechaArm.description>Устанавливает механитовую руку</InstallMechaArm.description>
+  <InstallMechaArm.jobString>Устанавливает механитовую руку</InstallMechaArm.jobString>
+  <InstallMehaLeg.label>Установить меха ногу</InstallMehaLeg.label>
+  <InstallMehaLeg.description>Устанавливает механитовую ногу</InstallMehaLeg.description>
+  <InstallMehaLeg.jobString>Устанавливает механитовую ногу</InstallMehaLeg.jobString>
+  <InstallMechaSpine.label>Установить меха спину</InstallMechaSpine.label>
+  <InstallMechaSpine.description>Устанавливает механитовую спину</InstallMechaSpine.description>
+  <InstallMechaSpine.jobString>Устанавливает механитовую спину</InstallMechaSpine.jobString>
+  <InstallMechaBrain.label>Установить меха чип</InstallMechaBrain.label>
+  <InstallMechaBrain.description>Устанавливает механитовый чип</InstallMechaBrain.description>
+  <InstallMechaBrain.jobString>Устанавливает механитовый чип</InstallMechaBrain.jobString>
+</LanguageData>

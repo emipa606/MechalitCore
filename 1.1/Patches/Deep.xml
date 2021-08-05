@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--Operation Class="PatchOperationReplace">
+		<xpath>/Defs/GenStepDef[defName = "ScatterDeepResourceLumps"]/genStep/countPer10kCellsRange</xpath>
+		<value>
+		<countPer10kCellsRange>
+        <min>60</min>
+        <max>60</max>
+      </countPer10kCellsRange>
+		</value>
+	</Operation-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/MapGeneratorDef[@Name="MapCommonBase"]/genSteps</xpath>
+    <value>
+      <li>SteamGeysersGaz</li>
+    </value>
+  </Operation>
+</Patch>

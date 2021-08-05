@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>MechaGen4kRes</defName>
+    <label>Mecha generator(4k)</label>
+    <description>Powerful generator (Green color. Energy output: 4000). Infinitely produces energy, does not need refueling. The mecha generator uses the energy cells, the installation for its construction.</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ResMechanites</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>15</researchViewX>
+    <researchViewY>1.5</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MechaGen6kRes</defName>
+    <label>Mecha generator(6k)</label>
+    <description>Powerful generator (Blue color. Energy output: 6000).</description>
+    <baseCost>9000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MechaGen4kRes</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>15</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MechaGen8kRes</defName>
+    <label>Mecha generator(8k)</label>
+    <description>Powerful generator (Violet color. Energy output: 8000).</description>
+    <baseCost>12000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MechaGen6kRes</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>15</researchViewX>
+    <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MechaGen10kRes</defName>
+    <label>Mecha generator(10k)</label>
+    <description>Powerful generator (Red color. Energy output: 10000).</description>
+    <baseCost>15000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MechaGen8kRes</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>15</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+</Defs>

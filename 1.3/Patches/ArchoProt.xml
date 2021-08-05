@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/HediffDef[defName = "ArchotechEye" or defName = "ArchotechArm" or defName = "ArchotechLeg"]/addedPartProps/partEfficiency</xpath>
+    <value>
+      <partEfficiency>2</partEfficiency>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/HediffDef[defName = "ArchotechArm"]/comps/li/tools/li/power</xpath>
+    <value>
+      <power>20</power>
+    </value>
+  </Operation>
+</Patch>

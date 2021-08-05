@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CreateMechaArm.label>Создать меха руку</CreateMechaArm.label>
+  <CreateMechaArm.description>Создать механитовую руку</CreateMechaArm.description>
+  <CreateMechaArm.jobString>Создает механитовую руку.</CreateMechaArm.jobString>
+  <CreateMechaLeg.label>Создать меха ногу</CreateMechaLeg.label>
+  <CreateMechaLeg.description>Создать механитовую ногу</CreateMechaLeg.description>
+  <CreateMechaLeg.jobString>Создает механитовую ногу.</CreateMechaLeg.jobString>
+  <CreateMechaSpine.label>Создать меха спину</CreateMechaSpine.label>
+  <CreateMechaSpine.description>Создать механитовую спину</CreateMechaSpine.description>
+  <CreateMechaSpine.jobString>Создает механитовую спину</CreateMechaSpine.jobString>
+  <CreateMechaBrain.label>Создать меха чип</CreateMechaBrain.label>
+  <CreateMechaBrain.description>Создать механитовый чип</CreateMechaBrain.description>
+  <CreateMechaBrain.jobString>Создает механитовый чип.</CreateMechaBrain.jobString>
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MechaArm.label>Mecha arm</MechaArm.label>
+  <MechaArm.description>A powerful artificial arm infused with mechanites which allow neural interfacing, will greatly increases work speed, and will repair the prosthetic over time.</MechaArm.description>
+  <MechaLeg.label>Mecha leg</MechaLeg.label>
+  <MechaLeg.description>A strong and light mechanite leg infused with mechanites which allow neural interfacing, will greatly increase movement speed, and will repair the prosthetic over time.</MechaLeg.description>
+  <MechaSpine.label>Mecha spine</MechaSpine.label>
+  <MechaSpine.description>A unique device that replaces the spine infused with mechanites which allow the spine to interface with the brain and other internal organs for improved efficiency and functionality.</MechaSpine.description>
+  <MechaBrain.label>Mecha brain implant</MechaBrain.label>
+  <MechaBrain.description>An intricate mesh network infused with mechanites that encases the entire brain which increases functionality for the entire head including but not limited to the eyes, ears, and mouth.</MechaBrain.description>
+  <UnfinishedMechaPart.label>Unfinished mecha prothese</UnfinishedMechaPart.label>
+</LanguageData>

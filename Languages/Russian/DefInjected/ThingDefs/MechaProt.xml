@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MechaArm.label>Меха рука</MechaArm.label>
+  <MechaArm.description>Мощная подвижная конечность, работающая на механитах. Сильно повышает скорость работы носителя.</MechaArm.description>
+  <MechaLeg.label>Меха нога</MechaLeg.label>
+  <MechaLeg.description>Прочная и легкая механитовая нога, сильно повышает скорость передвижения.</MechaLeg.description>
+  <MechaSpine.label>Меха спина</MechaSpine.label>
+  <MechaSpine.description>Уникальный спинной механизм, заменяющий позвоночник и подключенный к внутренним органам носителя со стороны спины. Повышает скорость работы и передвижения, а также улучшает работу внутренних органов, повышая ряд параметров организма.</MechaSpine.description>
+  <MechaBrain.label>Меха чип</MechaBrain.label>
+  <MechaBrain.description>Является практически полной заменой мозга. Улучшает многие параметры головы и, благодаря встроенному генератору успокаивающего поля, повышает настроение.</MechaBrain.description>
+  <UnfinishedMechaPart.label>Незаконченный меха протез</UnfinishedMechaPart.label>
+</LanguageData>

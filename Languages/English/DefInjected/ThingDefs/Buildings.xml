@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!--============================ Resource rocks ===============================-->
+  <MineableTisnit.label>Tisnite deposit</MineableTisnit.label>
+  <MineableTisnit.description>Rock containing bits of tisnite.</MineableTisnit.description>
+  <MineableSimerium.label>Simerium deposit</MineableSimerium.label>
+  <MineableSimerium.description>Rock containing bits of simerium</MineableSimerium.description>
+  <MineablePhasarium.label>Phasarium deposit</MineablePhasarium.label>
+  <MineablePhasarium.description>Rock containing bits of phasarium.</MineablePhasarium.description>
+  <!--============================ Production ===============================-->
+  <Ancientborehole.label>Ancient borehole </Ancientborehole.label>
+  <Ancientborehole.description>An ancient building used to extract N-16 gas from deep in the earth when powered. Uses a single piece of steel to repair the drill bit after every use.</Ancientborehole.description>
+  <Gasconverter.label>Gas converter</Gasconverter.label>
+  <Gasconverter.description>A station used for synthisizing materials using N-16 gas. Also has a couple other recipes.</Gasconverter.description>
+  <MechaponicBox.label>Mechaponics basin</MechaponicBox.label>
+  <MechaponicBox.description>A hydroponics basin augmented with mechanites and equipped with its own light. These mechanites drastically increase the growth speed of any plant grown here as well as allow all plant types to grow in the basin unlike the generic hydroponics basin. Because of the speedy growth rate and limitless plant choices the basin has a high material and power cost.</MechaponicBox.description>
+  <MechaLab.label>Mecha prosthetics lab</MechaLab.label>
+  <MechaLab.description>A workbench used to build mechanite infused prosthetics.</MechaLab.description>
+  <!--============================ ENErgy ===============================-->
+  <MechaMiniGen.label>Mobile mecha-generator</MechaMiniGen.label>
+  <MechaMiniGen.description>Generates free energy, forever, without using fuel. Infinitely produces electricity (450W) using power cells. A very useful generator in the campaigns or when you need to connect a drill on the other end of the card and there is no desire to lay the wires.</MechaMiniGen.description>
+  <MechaGen4k.label>Mecha generator (4k)</MechaGen4k.label>
+  <MechaGen4k.description>Generates energy by pulling charge and amplifying it from the near unlimited power of the installed energy cells. Does not need refueling but it very expensive to build.</MechaGen4k.description>
+  <MechaGen6k.label>Mecha generator (6k)</MechaGen6k.label>
+  <MechaGen6k.description>Generates energy by pulling charge and amplifying it from the near unlimited power of the installed energy cells. Does not need refueling but it very expensive to build.</MechaGen6k.description>
+  <MechaGen8k.label>Mecha generator (8k)</MechaGen8k.label>
+  <MechaGen8k.description>Generates energy by pulling charge and amplifying it from the near unlimited power of the installed energy cells. Does not need refueling but it very expensive to build.</MechaGen8k.description>
+  <MechaGen10k.label>Mecha generator (10k)</MechaGen10k.label>
+  <MechaGen10k.description>Generates energy by pulling charge and amplifying it from the near unlimited power of the installed energy cells. Does not need refueling but it very expensive to build.</MechaGen10k.description>
+  <!--============================ Security ===============================-->
+  <BarrierD.label>Barrier</BarrierD.label>
+  <BarrierD.description>An oddly light weight bulletproof barrier whose main purpose is as portable shielding for those needing protection on the move. Can be reinstalled but drastically slows movement speed and has more cover area than sandbags.</BarrierD.description>
+  <BarrierDD.label>Reinforced barrier</BarrierDD.label>
+  <BarrierDD.description>A slightly heavier but oddly light weight bulletproof barrier whose main purpose is as portable shielding for those needing protection on the move. Can be reinstalled but drastically slows movement speed and has almost complete cover from incoming projectiles.</BarrierDD.description>
+  <TurretCharge.label>Charge turret</TurretCharge.label>
+  <TurretCharge.description>A high powered energy based turret great for dispatching a single target. Has increased range and accuracy compared to the mini-turret. Fires a single charged efram pellet into the nearest aggressor.</TurretCharge.description>
+  <!--============================ Furniture ===============================-->
+  <EliteBed.label>Elite bed</EliteBed.label>
+  <EliteBed.description>A high-tech bed imbeded with mechanites whose primary function is to give the user a light massage. This bed is longer, more beautiful, more comfortable, and gives better rest than the standard bed. Counts as a hospital bed in regards to a vitals monitor.</EliteBed.description>
+  <EliteDoubleBed.label>Elite double bed</EliteDoubleBed.label>
+  <EliteDoubleBed.description>A high-tech double bed, meant for the best colonists, imbeded with mechanites whose primary function is to give the user a strong massage. This bed is longer, more beautiful, more comfortable, and gives better rest than the standard double bed. Counts as a hospital bed in regards to a vitals monitor.</EliteDoubleBed.description>
+  <FirstClassBed.label>Elite royal bed</FirstClassBed.label>
+  <FirstClassBed.description>A high-tech royal bed, meant for the best of the best of colonists, imbeded with mechanites whose primary function is to give the user a deep tissue massage without waking them. This bed is longer, more beautiful, more comfortable, and gives better rest than the standard royal bed. Counts as a hospital bed in regards to a vitals monitor.</FirstClassBed.description>
+  <Lamp-pot.label>Lamp-pot</Lamp-pot.label>
+  <Lamp-pot.description>Plant decorative flowers here to improve the mood of people nearby. This high-tech flower pot has a built in lamp which already comes powered because of the energy cells needed in construction.</Lamp-pot.description>
+  <!--Lamp-potR.label>lamp-pot red</Lamp-potR.label>
+	<Lamp-potG.label>lamp-pot blue</Lamp-potG.label>
+	<Lamp-potB.label>lamp-pot green</Lamp-potB.label-->
+  <Lamp-potP.label>Lamp-pot purple</Lamp-potP.label>
+  <Lamp-potP.description>Plant decorative flowers here to improve the mood of people nearby. This high-tech flower pot has a built in purple lamp which already comes powered because of the energy cells needed in construction. This particular lamp is purple.</Lamp-potP.description>
+  <Lamp-potT.label>Lamp-pot turquoise</Lamp-potT.label>
+  <Lamp-potT.description>Plant decorative flowers here to improve the mood of people nearby. This high-tech flower pot has a built in turquoise lamp which already comes powered because of the energy cells needed in construction. This particular lamp is turquoise.</Lamp-potT.description>
+  <EliteDresserMeh.label>Elite dresser</EliteDresserMeh.label>
+  <EliteDresserMeh.description>A high-tech dresser. Gives a large comfort bonus to all nearby beds while also producing a sound that helps a person reach REM sleep faster and keeps them there longer for a better sleep. Placing more than one dresser near the same bed has no effect.</EliteDresserMeh.description>
+  <IonizerMeh.label>Ionizer</IonizerMeh.label>
+  <IonizerMeh.description>Ionizes a room with mechanites in order to keep it as clean as possible. Great for kitchens and hospitals and for making a room clean and beautiful.</IonizerMeh.description>
+  <!--============================ Misc ===============================-->
+  <MicroScanner.label>Micro-scanner</MicroScanner.label>
+  <MicroScanner.description>Place up to four scanners near a single ancient borehole to increase the speed at which N-16 gas is extracted. Each ancient borehole can only use four micro-scanners.</MicroScanner.description>
+</LanguageData>

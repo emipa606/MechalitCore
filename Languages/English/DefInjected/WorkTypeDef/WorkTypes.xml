@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <BoreholeGas.label>Gas-miner</BoreholeGas.label>
+  <!-- EN: Digging and drilling. -->
+  <BoreholeGas.description>Drillers-miners produce N-16 gas in ancient wells. Mining speed depends on the Mining skill. (Mod: Mechalit Core)</BoreholeGas.description>
+  <!-- EN: mining -->
+  <BoreholeGas.gerundLabel>Extract gas N-16</BoreholeGas.gerundLabel>
+  <!-- EN: Mine -->
+  <BoreholeGas.labelShort>&lt;color=#54ff9f&gt;Gas-miner&lt;/color&gt;</BoreholeGas.labelShort>
+  <!-- EN: Miner -->
+  <BoreholeGas.pawnLabel>Gas-miner</BoreholeGas.pawnLabel>
+  <!-- EN: Mine -->
+  <BoreholeGas.verb>Extract gas N-16</BoreholeGas.verb>
+</LanguageData>

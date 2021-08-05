@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MechaGen4kRes.label>Ѧ Меха генер-р(4k)</MechaGen4kRes.label>
+  <MechaGen4kRes.description>Мощный генератор (Цвет: зеленый. Энергия: 4000). Бесконечно производит энергию, не нуждается в заправке. Меха генератор использует для работы энерго ячейки, использованные при его строительстве.</MechaGen4kRes.description>
+  <MechaGen6kRes.label>Ѧ Меха генер-р(6k)</MechaGen6kRes.label>
+  <MechaGen6kRes.description>Мощный генер-р (Цвет: синий. Энергия: 6000).</MechaGen6kRes.description>
+  <MechaGen8kRes.label>Ѧ Меха генер-р(8k)</MechaGen8kRes.label>
+  <MechaGen8kRes.description>Мощный генератор (Цвет: фиолетовый. Энергия: 8000).</MechaGen8kRes.description>
+  <MechaGen10kRes.label>Ѧ Меха генер-р(10k)</MechaGen10kRes.label>
+  <MechaGen10kRes.description>Мощный генератор (Цвет: красный. Энергия: 10000).</MechaGen10kRes.description>
+</LanguageData>

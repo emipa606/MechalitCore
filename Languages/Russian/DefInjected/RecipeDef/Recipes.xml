@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Extractgasn.label>Добывать газ N-16</Extractgasn.label>
+  <Extractgasn.description>Добывать газ N-16. Для добычи 7 ед. газа требуется 1 ед. стали на сверло. Скорость добычи сильно зависит от навыка "горное дело".</Extractgasn.description>
+  <Extractgasn.jobString>Добывает газ N-16</Extractgasn.jobString>
+  <MakeEftam.label>Создать эфтам х50</MakeEftam.label>
+  <MakeEftam.description>Создать эфтам путем синтеза стали и каменных блоков под воздействием газа N-16.</MakeEftam.description>
+  <MakeEftam.jobString>Создает эфтам</MakeEftam.jobString>
+  <MakeChemfuelFromGas.label>Получить хим.топливо х30</MakeChemfuelFromGas.label>
+  <MakeChemfuelFromGas.description>Получить хим.топливо путем синтеза эфтама и газа N-16.</MakeChemfuelFromGas.description>
+  <MakeChemfuelFromGas.jobString>Создает хим.топливо</MakeChemfuelFromGas.jobString>
+  <MakeTeachmat.label>Создать тремат х250</MakeTeachmat.label>
+  <MakeTeachmat.description>Создать тремат путем синтеза металлолома, компонентов и симерия под воздействием газа N-16. Тремат - тренировочный материал и нужен только для обучения.</MakeTeachmat.description>
+  <MakeTeachmat.jobString>Создает тремат</MakeTeachmat.jobString>
+  <MakeMyrithium.label>Создать миритий х30</MakeMyrithium.label>
+  <MakeMyrithium.description>Создать миритий путем синтеза тиснита и эфтама под воздействием газа N-16.</MakeMyrithium.description>
+  <MakeMyrithium.jobString>Создает миритий</MakeMyrithium.jobString>
+  <MakeVilanit.label>Создать виланит х30</MakeVilanit.label>
+  <MakeVilanit.description>Создать виланит путем синтеза симерия и фазария под воздействием газа N-16.</MakeVilanit.description>
+  <MakeVilanit.jobString>Создает виланит</MakeVilanit.jobString>
+  <MakeElementx.label>Создать элемент X-32  х30</MakeElementx.label>
+  <MakeElementx.description>Создать элемент X-32 путем синтеза тиснита и пластали  под воздействием газа N-16.</MakeElementx.description>
+  <MakeElementx.jobString>Создает элемент X-32</MakeElementx.jobString>
+  <MakeMechanites.label>Создать механитов</MakeMechanites.label>
+  <MakeMechanites.description>Создать механитов путем синтеза компонентов и серебра под воздействием газа N-16.</MakeMechanites.description>
+  <MakeMechanites.jobString>Создает механитов</MakeMechanites.jobString>
+  <MakeAICoreMeh.label>Создать ядро ИИ</MakeAICoreMeh.label>
+  <MakeAICoreMeh.description>Создать ядро ИИ из различных компонентов</MakeAICoreMeh.description>
+  <MakeAICoreMeh.jobString>Создает ядро ИИ</MakeAICoreMeh.jobString>
+  <MakeLuciferiumM.label>Создать люциферий х5</MakeLuciferiumM.label>
+  <MakeLuciferiumM.description>Создать люциферий, используя механитов, пеноксицилин и дьяволоткань.</MakeLuciferiumM.description>
+  <MakeLuciferiumM.jobString>Создает люциферий</MakeLuciferiumM.jobString>
+</LanguageData>

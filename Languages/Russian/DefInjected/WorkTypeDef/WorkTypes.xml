@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <BoreholeGas.label>Газовик</BoreholeGas.label>
+  <!-- EN: Digging and drilling. -->
+  <BoreholeGas.description>Шахтеры-бурильщики добывают газ N-16 в древних скважинах. Скорость добычи зависит от навыка "Горное дело". (Мод: Mechalit Core)</BoreholeGas.description>
+  <!-- EN: mining -->
+  <BoreholeGas.gerundLabel>Добывать газ N-16</BoreholeGas.gerundLabel>
+  <!-- EN: Mine -->
+  <BoreholeGas.labelShort>&lt;color=#54ff9f&gt;Газ&lt;/color&gt;</BoreholeGas.labelShort>
+  <!-- EN: Miner -->
+  <BoreholeGas.pawnLabel>Газовик</BoreholeGas.pawnLabel>
+  <!-- EN: Mine -->
+  <BoreholeGas.verb>Добывать газ N-16</BoreholeGas.verb>
+</LanguageData>

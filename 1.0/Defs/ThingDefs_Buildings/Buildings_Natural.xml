@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="RockBase">
+    <defName>MineableTisnit</defName>
+    <label>tisnite deposit</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(154,122,73)</color>
+      <colorTwo>(239,152,73)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>4500</MaxHitPoints>
+    </statBases>
+    <description>Tisnite deposit. Tisnite is a very strong and unflammable metal.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Tisnit</mineableThing>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>0.2</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>7</min>
+        <max>12</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+    <defName>MineableSimerium</defName>
+    <label>simerium deposit</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(64,102,93)</color>
+      <colorTwo>(127,255,229)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2500</MaxHitPoints>
+    </statBases>
+    <description>Ore, containing simerium - a light metal, useful as a material for production buildings.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Simerium</mineableThing>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>0.3</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>7</min>
+        <max>12</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+    <defName>MineablePhasarium</defName>
+    <label>phasarium deposit</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(104,72,119)</color>
+      <colorTwo>(190,125,202)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+    </statBases>
+    <description>Ore, containing simerium - a precious metal with healing properties. You can make excellent furniture out of phasarium.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Phasarium</mineableThing>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>0.2</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>6</min>
+        <max>11</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <!--ThingDef ParentName="BuildingNaturalBase">
+    <defName>SteamGeyserGaz</defName>
+    <thingClass>Building</thingClass>
+    <label>steam geyserGas</label>
+    <graphicData>
+      <texPath>Things/Building/Natural/SteamGeyser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <drawSize>(4,4)</drawSize>
+	  <color>(210,118,218)</color>
+    </graphicData>
+    <altitudeLayer>Floor</altitudeLayer>
+		<rotatable>false</rotatable>
+    <destroyable>false</destroyable>
+    <useHitPoints>false</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <selectable>true</selectable>
+    <description>Natural steam source.</description>
+    <size>(2,2)</size>
+    <neverOverlapFloors>true</neverOverlapFloors>
+    <blockPlants>true</blockPlants>
+    <building>
+      <isEdifice>false</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+    </building>
+  </ThingDef-->
+</Defs>

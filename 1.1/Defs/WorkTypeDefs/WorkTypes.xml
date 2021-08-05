@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Drilling -->
+  <WorkTypeDef>
+    <defName>BoreholeGas</defName>
+    <labelShort>Gas-miner</labelShort>
+    <pawnLabel>Gas-miner</pawnLabel>
+    <gerundLabel>Drilling gas</gerundLabel>
+    <description>Drillers-miners extract N-16 gas in ancient wells. (Mod: Mechalit Core)</description>
+    <verb>Drill gas</verb>
+    <naturalPriority>592</naturalPriority>
+    <requireCapableColonist>true</requireCapableColonist>
+    <relevantSkills>
+      <li>Mining</li>
+    </relevantSkills>
+    <workTags>
+      <li>ManualSkilled</li>
+      <li>Mining</li>
+    </workTags>
+  </WorkTypeDef>
+</Defs>

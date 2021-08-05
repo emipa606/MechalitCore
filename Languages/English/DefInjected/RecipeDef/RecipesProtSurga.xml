@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <InstallMechaArm.label>Install mechanite arm</InstallMechaArm.label>
+  <InstallMechaArm.description>Install mechanite arm</InstallMechaArm.description>
+  <InstallMechaArm.jobString>Installing mechanite arm</InstallMechaArm.jobString>
+  <InstallMehaLeg.label>Install mechanite leg</InstallMehaLeg.label>
+  <InstallMehaLeg.description>Install mechanite leg</InstallMehaLeg.description>
+  <InstallMehaLeg.jobString>Installing mechanite leg</InstallMehaLeg.jobString>
+  <InstallMechaSpine.label>Install mechanite spine</InstallMechaSpine.label>
+  <InstallMechaSpine.description>Install mechanite spine</InstallMechaSpine.description>
+  <InstallMechaSpine.jobString>Installing mechanite spine</InstallMechaSpine.jobString>
+  <InstallMechaBrain.label>Install mechanite brain implant</InstallMechaBrain.label>
+  <InstallMechaBrain.description>Install mechanite brain implant</InstallMechaBrain.description>
+  <InstallMechaBrain.jobString>Installing mechanite brain implant</InstallMechaBrain.jobString>
+</LanguageData>
