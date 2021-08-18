@@ -45,6 +45,7 @@
           <li>EndTable</li>
           <li>Dresser</li>
           <li>EliteDresserMeh</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
         </linkableFacilities>
       </li>
     </comps>
@@ -109,6 +110,7 @@
           <li>EndTable</li>
           <li>Dresser</li>
           <li>EliteDresserMeh</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
         </linkableFacilities>
       </li>
     </comps>
@@ -175,6 +177,7 @@
           <li>EndTable</li>
           <li>Dresser</li>
           <li>EliteDresserMeh</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
         </linkableFacilities>
       </li>
     </comps>

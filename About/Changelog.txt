@@ -1,5 +1,8 @@
 # Changelog for MechalitCore
 
+1.0.2.0 - Added sleep accelerator and royalty patches
+
+
 1.0.1.0 - Republish as the description was too long
 
 
