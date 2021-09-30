@@ -26,6 +26,7 @@
     <spawnThingOnRemoved>MechaArm</spawnThingOnRemoved>
     <addedPartProps>
       <partEfficiency>1.7</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -50,6 +51,7 @@
     <spawnThingOnRemoved>MechaLeg</spawnThingOnRemoved>
     <addedPartProps>
       <partEfficiency>1.7</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
   <HediffDef ParentName="MechaProtHeddif">

@@ -1,41 +1,32 @@
 # MechalitCore
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Daniledmans mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1141721293
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-    [tr]
-        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-        [td]https://github.com/emipa606/MechalitCore]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-    [/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 **# WHAT IS IT?
 **
 
-	This mod is the core mod, first and main of the &quot;Mechalite&quot; mod series. It adds more diversity to the game by adding new materials, items, buildings and technologies. The gameplay will become more intresting, and you will have more things to do before leaving the planet.
+	This mod is the core mod, first and main of the "Mechalite" mod series. It adds more diversity to the game by adding new materials, items, buildings and technologies. The gameplay will become more intresting, and you will have more things to do before leaving the planet.
 	# Mod is compatible with old saves, though new colony is needed to be founded in order to obtain some new resources (new metal deposits and ancient boreholes will appear only on newly discovered locations).
 
 
-	New resources are more likely to be found in other settlements, in bulk goods(not tribal) and exotic goods trader&apos;s stock. Mecha prosthetics can be bought only from orbital traders (to prevent easy obtainment through caravan robbery).
+	New resources are more likely to be found in other settlements, in bulk goods(not tribal) and exotic goods trader's stock. Mecha prosthetics can be bought only from orbital traders (to prevent easy obtainment through caravan robbery).
 		
 	# **FEATURES:**
 
 	- 13 new research projects.
-	- You&apos;ll need to choose place for your colony more carefully, placing it closer to ancient boreholes, from which N-16 gas (very important resource) can be obtained.
+	- You'll need to choose place for your colony more carefully, placing it closer to ancient boreholes, from which N-16 gas (very important resource) can be obtained.
 	- The materials from which the workbenches, defense and furniture are created will play a more important role.
 	- A way to train crafters, sculptors and builders without spending too much resources.
 	- New barriers and charge turrets make survival without killbox more feasible.
-	- Mechaponics, that can grow all kinds of plants, even those that hydroponics can&apos;t.
+	- Mechaponics, that can grow all kinds of plants, even those that hydroponics can't.
 	- Stronger melee weapon can be made from new material.
 	- New elite beds will provide a first-class sleeping spot for your colonists.
 	- Mecha prostetics, that greatly increase your colonists capabilities.
@@ -70,11 +61,11 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1141721293
 	- Myrithium: an ultra-strong material. The best for building walls and defences.
 	- Vilanite: good look, high beauty, healing properties and high speed of work at bench.
 	- Element X-32: a great material for crafting melee weapon, also needed to create mecha prosthetics.
-	- Traimat: Training material (&quot;Traimat&quot; for short) - items and buildings are created for unbearably long. Used instead of other materials for training sculptors, builders and crafters.
+	- Traimat: Training material ("Traimat" for short) - items and buildings are created for unbearably long. Used instead of other materials for training sculptors, builders and crafters.
 	
 	# **NEW FLOORS:**
 
-	- 7 new types of tiles, made fromm new materials (4 are available from start, 3 are unlocked by the &quot;Synthesis&quot; research.)
+	- 7 new types of tiles, made fromm new materials (4 are available from start, 3 are unlocked by the "Synthesis" research.)
 	
 	# **NEW RESOURCE:**
 
@@ -93,7 +84,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1141721293
 	
 	# **MECHA PROSTHETICS:**
 
-	- Added 4 new augmentations, as well as ability to craft them (probably some new will be added in future). These prosthetics are very expensive, but grant huge boost to colonist&apos;s stats.
+	- Added 4 new augmentations, as well as ability to craft them (probably some new will be added in future). These prosthetics are very expensive, but grant huge boost to colonist's stats.
 	- Mecha arm: 170% efficiency.
 	- Mecha leg: 170% efficiency.
 	- Mecha spine: +35% work and movement speed, blood filtration, blood pumping, eating, breathing and metabolism.
@@ -101,9 +92,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1141721293
 
        # **IMPROVED ARCHO PROSTHESIS:**
 
-	- Archotech eye: efficiency 150%&gt; 200%
-	- Archotech arm: efficiency 150%&gt; 200%
-	- Archotech leg: efficiency 150%&gt; 200%
+	- Archotech eye: efficiency 150% 200%
+	- Archotech arm: efficiency 150% 200%
+	- Archotech leg: efficiency 150% 200%
 	
 	# **THE NEW AUTONOMOUS FURNITURE**
 
@@ -128,7 +119,7 @@ Mobile mecha-generator- generates free energy, forever, without using fuel. Infi
     - 10,000 power generation. Color - red.
     Each configuration opens with a separate study and is slightly more advantageous than the previous configuration.
     For example, 10k-configuration is 2.5 times more efficient than 4-k, and requires 2.2 times more resources.
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -138,5 +129,6 @@ Mobile mecha-generator- generates free energy, forever, without using fuel. Infi
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
