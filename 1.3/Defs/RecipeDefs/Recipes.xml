@@ -416,6 +416,62 @@
     <workSkill>Crafting</workSkill>
   </RecipeDef>
   <RecipeDef>
+    <defName>MakeMechanitesBulk</defName>
+    <label>Make mechanites x5</label>
+    <description>Make bulk mechanites by synthesis of components and silver under the influence of N-16 gas.</description>
+    <jobString>Making mechanites.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <researchPrerequisite>ResMechanites</researchPrerequisite>
+    <workAmount>30000</workAmount>
+    <recipeUsers>
+      <li>Gasconverter</li>
+    </recipeUsers>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gasnenkj</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentIndustrial</li>
+        <li>Silver</li>
+        <li>Gasnenkj</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Mechanites>5</Mechanites>
+    </products>
+    <skillRequirements>
+      <Crafting>14</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+  <RecipeDef>
     <defName>MakeLuciferiumM</defName>
     <label>Make luciferium х5</label>
     <description>Make luciferium by exposing mehanites, devilstrand and penoxycyline.</description>

@@ -1,5 +1,8 @@
 # Changelog for MechalitCore
 
+1.0.4.0 - Added bulk recipe for Mechanites, removed redundant english translation-files
+
+
 1.0.3.0 - Arms and legs are now tagged as better than natural since they have 170% efficency
 
 
