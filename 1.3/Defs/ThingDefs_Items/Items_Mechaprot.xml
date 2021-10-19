@@ -14,7 +14,7 @@
   <ThingDef ParentName="MechaProte">
     <defName>MechaArm</defName>
     <label>mecha arm</label>
-    <description>A powerful artificial limb. Highly increases work speed.</description>
+    <description>A powerful artificial arm infused with mechanites which allow neural interfacing, will greatly increases work speed, and will repair the prosthetic over time.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>MehaProt/ImplantD</texPath>
@@ -31,7 +31,7 @@
   <ThingDef ParentName="MechaProte">
     <defName>MechaLeg</defName>
     <label>mecha leg</label>
-    <description>A strong and light mechanite leg. Highly increases move speed.</description>
+    <description>A strong and light mechanite leg infused with mechanites which allow neural interfacing, will greatly increase movement speed, and will repair the prosthetic over time.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>MehaProt/ImplantT</texPath>
@@ -48,7 +48,7 @@
   <ThingDef ParentName="MechaProte">
     <defName>MechaSpine</defName>
     <label>mecha spine</label>
-    <description>A unique mechanism, that replaces spine and connects to the internals, optimizing their work. Increases work and movement speed, as well as some other parameters.</description>
+    <description>A unique device that replaces the spine infused with mechanites which allow the spine to interface with the brain and other internal organs for improved efficiency and functionality.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>MehaProt/ImplantF</texPath>
@@ -65,7 +65,7 @@
   <ThingDef ParentName="MechaProte">
     <defName>MechaBrain</defName>
     <label>Mecha brain implant</label>
-    <description>Almost completely replaces brain. Increases many head-related parameters and boosts mood thanks to built-in psychic soothe pulser.</description>
+    <description>An intricate mesh network infused with mechanites that encases the entire brain which increases functionality for the entire head including but not limited to the eyes, ears, and mouth.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>MehaProt/ImplantY</texPath>
@@ -81,7 +81,7 @@
   </ThingDef>
   <ThingDef ParentName="UnfinishedBase">
     <defName>UnfinishedMechaPart</defName>
-    <label>Unfinished Mecha part</label>
+    <label>Unfinished mecha prothese</label>
     <graphicData>
       <texPath>MehaProt/ImplantU</texPath>
       <graphicClass>Graphic_Single</graphicClass>

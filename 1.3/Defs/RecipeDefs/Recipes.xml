@@ -3,7 +3,7 @@
   <RecipeDef>
     <defName>Extractgasn</defName>
     <label>Extract N-16 gas</label>
-    <description>Extract N-16 gas. Extraction of 8 units of the gas requires 2 units of steel for drilling. Extraction speed is highly dependant on "Mining" skill.</description>
+    <description>Extract N-16 gas. Extraction of seven units of the gas requires one unit of steel for drilling. Extraction speed is highly dependent on the mining skill.</description>
     <jobString>Extracting N-16 gas</jobString>
     <workAmount>4100</workAmount>
     <recipeUsers>
@@ -34,9 +34,9 @@
   </RecipeDef>
   <RecipeDef>
     <defName>MakeEftam</defName>
-    <label>Produce eftam x50</label>
-    <description>Make eftam by synthesis of steel and stone blocks under the influence of N-16 gas.</description>
-    <jobString>Making eftam</jobString>
+    <label>Synthesize Eftam</label>
+    <description>Synthesize eftam by exposing steel and stone blocks to N-16 gas. Produces 50 eftam.</description>
+    <jobString>Synthesizing eftam</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
@@ -88,9 +88,9 @@
   </RecipeDef>
   <RecipeDef>
     <defName>MakeChemfuelFromGas</defName>
-    <label>Make chemfuel x30</label>
-    <description>Make chemfuel by synthesis of eftam and N-16 gas.</description>
-    <jobString>Making chemfuel.</jobString>
+    <label>Make chemfuel</label>
+    <description>Synthesize chemfuel by exposing eftam to N-16 gas. Produces 30 chemfuel.</description>
+    <jobString>Synthesizing chemfuel</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
@@ -131,9 +131,9 @@
   </RecipeDef>
   <RecipeDef>
     <defName>MakeTeachmat</defName>
-    <label>Produce traimat x250</label>
-    <description>Make traimat by synthesis of metal slag, components and simerium under the influence of N-16 gas. Traimat can be used only to train pawns.</description>
-    <jobString>Making teachmat.</jobString>
+    <label>Synthesize traimat</label>
+    <description>Synthesize traimat by exposing a steel slag chunk, a component, and simerium to N-16 gas. Traimat is best used in training pawns. Produces 250 traimat.</description>
+    <jobString>Synthesizing traimat</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
@@ -193,9 +193,9 @@
   </RecipeDef>
   <RecipeDef>
     <defName>MakeMyrithium</defName>
-    <label>Produce myrithium x30</label>
-    <description>Make myrithium by synthesis of tisnite and eftam under the influence of N-16 gas.</description>
-    <jobString>Making myrithium.</jobString>
+    <label>Synthesize myrithium x30</label>
+    <description>Synthesize myrithium by exposing tisnite and eftam to N-16 gas. Produces 30 myrithium.</description>
+    <jobString>Synthesizing myrithium</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
@@ -249,9 +249,9 @@
   </RecipeDef>
   <RecipeDef>
     <defName>MakeVilanit</defName>
-    <label>Produce vilanite x30</label>
-    <description>Make vilanite by synthesis of simerium and phasarium under the influence of N-16 gas.</description>
-    <jobString>Making vilanite.</jobString>
+    <label>Synthesize vilanite x30</label>
+    <description>Synthesize vilanite by exposing simerium and phasarium to N-16 gas. Produces 30 vilanite.</description>
+    <jobString>Synthesizing vilanite</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
@@ -305,9 +305,9 @@
   </RecipeDef>
   <RecipeDef>
     <defName>MakeElementx</defName>
-    <label>Produce element X-32 x30</label>
-    <description>Make element X-32 by synthesis of tisnite and plasteel under the influence of N-16 gas.</description>
-    <jobString>Making element X-32.</jobString>
+    <label>Synthesize element X-32</label>
+    <description>Synthesize vilanite by exposing simerium and phasarium to N-16 gas. Produces 30 element X-32.</description>
+    <jobString>Synthesizing element X-32</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
@@ -361,9 +361,9 @@
   </RecipeDef>
   <RecipeDef>
     <defName>MakeMechanites</defName>
-    <label>Make mechanites</label>
-    <description>Make mechanites by synthesis of components and silver under the influence of N-16 gas.</description>
-    <jobString>Making mechanites.</jobString>
+    <label>Synthesize mechanites</label>
+    <description>Synthesize mechanites by exposing components and silver to N-16 gas.</description>
+    <jobString>Synthesizing mechanites</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
@@ -417,9 +417,9 @@
   </RecipeDef>
   <RecipeDef>
     <defName>MakeMechanitesBulk</defName>
-    <label>Make mechanites x5</label>
-    <description>Make bulk mechanites by synthesis of components and silver under the influence of N-16 gas.</description>
-    <jobString>Making mechanites.</jobString>
+    <label>Synthesize mechanites x5</label>
+    <description>Synthesize mechanites by exposing components and silver to N-16 gas. Makes 5 mechanites.</description>
+    <jobString>Synthesizing mechanites</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
@@ -473,9 +473,9 @@
   </RecipeDef>
   <RecipeDef>
     <defName>MakeLuciferiumM</defName>
-    <label>Make luciferium х5</label>
-    <description>Make luciferium by exposing mehanites, devilstrand and penoxycyline.</description>
-    <jobString>Making luciferium.</jobString>
+    <label>Synthesize luciferium х5</label>
+    <description>Synthesize luciferium by exposing mehanites, devilstrand and penoxycyline.</description>
+    <jobString>Synthesizing luciferium</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>

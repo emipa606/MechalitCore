@@ -4,7 +4,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Tisnit</defName>
     <label>Tisnite</label>
-    <description>A very durable unflammable metal. Great choice for building walls and defences.</description>
+    <description>A durable and inflammable metal primarily used for walls and defenses.</description>
     <graphicData>
       <texPath>Res/Tisnittex</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -61,7 +61,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Simerium</defName>
     <label>Simerium</label>
-    <description>A light and ductile semiprecious metal. Is valued for its unusual color and unique properties - simerium workbenches proved to be very effective.</description>
+    <description>A light and ductile semiprecious metal valued for its unusual color and unique properties primarily used in the construction of workbenches.</description>
     <graphicData>
       <texPath>Res/Simeriumtex</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -119,7 +119,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Phasarium</defName>
     <label>Phasarium</label>
-    <description>A precious metal with healing properties. Perfect for building furniture (especially beds), sculptures and entertainment. Because of its high flammabiity, phasarium is almost the worst material for building walls and defences.</description>
+    <description>A precious metal valued for its beauty and healing properties primarily used in recreational objects and hospital equipment. Unfortunately phasarium is an awful material for walls and defenses due to its high flammability.</description>
     <graphicData>
       <texPath>Res/Padinontex</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -179,7 +179,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Eftam</defName>
     <label>Eftam</label>
-    <description>An alloy of steel and silicon. Low quality and bad properties, but very cheap and easy to produce. It can be used instead of more expensive metals, when high durability or beauty are not required - some types of futniture, flower pots, shelves, sometimes walls.</description>
+    <description>An alloy of steel and silicon which is cheap and easily produced but has poor qualities and isn't very sturdy. Can be used in place of more expensive metals in a pinch.</description>
     <graphicData>
       <texPath>Res/Eftamtex</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -231,7 +231,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Myrithium</defName>
     <label>Myrithium</label>
-    <description>An ultra-strong material produced by the synthesis of tisnite and eftam using N-16 gas. The best material for walls and defences. Also can be used to create traps and melee weapons.</description>
+    <description>An incredibly strong material made from the synthesis of eftam and N-16 gas that is the best choice for walls and defense. Works great for traps and melee weapons as well.</description>
     <graphicData>
       <texPath>Res/Myrithiumtex</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -280,7 +280,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Vilanit</defName>
     <label>Vilanite</label>
-    <description>A unique material, produced by the synthesis of simerium and phasarium using N-16 gas. It absorbed the best properties of these metals: good look, high beauty, healing properties and high speed of work at bench. An ideal material for building all kinds of furniture, sculptures, workbenches, entertainment and doors.</description>
+    <description>A unique material made from the synthesis of simerium and phasarium using N-16 gas. Vilanite is a combination of all the best qualities from the original materials so you will find it used in almost all high quality furniture.</description>
     <graphicData>
       <texPath>Res/Vilanittex</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -336,7 +336,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Elementx</defName>
     <label>Element X-32</label>
-    <description>A misterious, poorly-studied material, occasionally obtained by the synthesis of tisnite and plasteel using N-16 gas. Little is known about it, but one group of scientists revealed it's abnormal properties - an abrupt acceleration, like a wave of a sword, make X-32 lighter and cause it to emit energy. So, X-32 is a material, a really deadly melee weapon can be crafted from. Also needed for creation of mecha prosthetics.</description>
+    <description>A mysterious substance thats full potential has yet to be unlocked by scientists. What little is known about X-32 is that when rapidly accelerated it becomes incredibly light and emits some sort of energy making it perfect for melee weapons but not much else.</description>
     <graphicData>
       <texPath>Res/ElemX32tex</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -389,7 +389,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Teachmat</defName>
     <label>Traimat</label>
-    <description>Training material ("Traimat" for short) - a unique material with complex composition. It is not just an alloy - it's a material-mechanism, made from simerium, components and metal slag. Its main feature is rather unique too - it would take eternity to craft or build something from this material. Though, it can be used to train crafters, sculptors and builders, avoiding waste of other resources.</description>
+    <description>Training material, traimat for short, is a material designed and created for the sole purpose of training artisans and architects while keeping material cost low. Traimat is designed to return to its original shape so finishing a project with it is almost impossible.</description>
     <graphicData>
       <texPath>Res/Teachtex</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -444,7 +444,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Gasnenkj</defName>
     <label>Gas N-16</label>
-    <description>A unique gas, extracted from ancient boreholes on a map. Little amount of steel is needed for extraction. N-16 is use in production of materials such as eftam, traimat, myrithium, vilanite and element X-32. Also can be recycled into chemfuel in a gas converter</description>
+    <description>A unique gas extracted from ancient boreholes used in the synthesis of most mechalit materials. Can also be used in a gas converter to create chemfuel.</description>
     <tickerType>Normal</tickerType>
     <graphicData>
       <texPath>Res/Gaztex</texPath>
@@ -465,7 +465,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Mechanites</defName>
     <label>Mechanites</label>
-    <description>Container with mechanites. Mechanites are requred for creation of hi-tech materials, items and buildings.</description>
+    <description>A container full of high grade mechanites used in the creation of advanced materials, objects, and buildings.</description>
     <tickerType>Normal</tickerType>
     <graphicData>
       <texPath>Res/Nanorobotstex</texPath>
@@ -485,8 +485,8 @@
   </ThingDef>
   <ThingDef ParentName="ResourceBase">
     <defName>Energx</defName>
-    <label>Energу cell (test)</label>
-    <description>An ancient rare container with a huge supply of energy. It can be found in underground deposits of 1x1, and in ancient tombs. Needed to create a mecha-generator..</description>
+    <label>Energу cell</label>
+    <description>An ancient power source with a near infinite amount of energy stored inside. These energy cells are incredibly rare and can be reliably found in a few places.</description>
     <tickerType>Normal</tickerType>
     <graphicData>
       <texPath>Res/energ2</texPath>

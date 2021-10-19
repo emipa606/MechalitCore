@@ -4,7 +4,7 @@
     <defName>Ancientborehole</defName>
     <label>Ancient borehole</label>
     <thingClass>Building_WorkTable</thingClass>
-    <description>An old building for gas extraction. When powered, allows to extract N-16 gas. Extraction of one batch of gas requires 4 units of steel (for single-use drill).</description>
+    <description>An ancient building used to extract N-16 gas from deep in the earth when powered. Uses a single piece of steel to repair the drill bit after every use.</description>
     <graphicData>
       <texPath>Build/GasN16tex</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -73,7 +73,7 @@
     <defName>Gasconverter</defName>
     <label>Gas converter</label>
     <thingClass>Building_WorkTable_HeatPush</thingClass>
-    <description>This bench is used for synthesis of various materials. Majority of recipes require N-16 gas.</description>
+    <description>A station used for synthisizing materials using N-16 gas. Also has a couple other recipes.</description>
     <graphicData>
       <texPath>Build/Gasconvertertex</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -143,7 +143,7 @@
     <defName>MechaLab</defName>
     <label>Mecha prosthetics lab</label>
     <thingClass>Building_WorkTable_HeatPush</thingClass>
-    <description>A bench, used to create advanced prosthetics. They are made from myrithium, element X-32 and mechanites and greatly increase almost all pawn's stats.</description>
+    <description>A workbench used to build mechanite infused prosthetics.</description>
     <graphicData>
       <texPath>MehaProt/MehaProtProd</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -211,7 +211,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>MechaponicBox</defName>
     <label>Mechaponics</label>
-    <description>A unique construction, that uses mechanites to accelerate plant growth. Trees, devilstrand, corn, haygrass and other plants, that can't be grown on common hydroponics, can be grown on mechaponics. It's very expensive and consumes a lot of power, but allows to grow rare plants very quickly and without sunlamps (mechaponics has it's own).\n Fertility: 900%</description>
+    <description>A hydroponics basin augmented with mechanites and equipped with its own light. These mechanites drastically increase the growth speed of any plant grown here as well as allow all plant types to grow in the basin unlike the generic hydroponics basin. Because of the speedy growth rate and limitless plant choices the basin has a high material and power cost.</description>
     <thingClass>Building_PlantGrower</thingClass>
     <graphicData>
       <texPath>Build/MechponicTex</texPath>
@@ -285,7 +285,7 @@
     <defName>BarrierD</defName>
     <label>Barrier</label>
     <thingClass>Building</thingClass>
-    <description>Strong bulletproof barrier. Thanks to the unique technology, it's light enough to be carried by caravan. Can be reinstalled. Slows movement tremendously. Provides twice more effective cover than sandbags.</description>
+    <description>An oddly light weight bulletproof barrier whose main purpose is as portable shielding for those needing protection on the move. Can be reinstalled but drastically slows movement speed and has more cover area than sandbags.</description>
     <graphicData>
       <texPath>Build/BarrierTex</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -328,7 +328,7 @@
     <defName>BarrierDD</defName>
     <label>Reinforced barrier</label>
     <thingClass>Building</thingClass>
-    <description>Very strong bulletproof barrier. Thanks to the unique technology, it's light enough to be carried by caravan. Can be reinstalled. Slows movement tremendously. Provides 3 times more effective cover than sandbags.</description>
+    <description>A slightly heavier but oddly light weight bulletproof barrier whose main purpose is as portable shielding for those needing protection on the move. Can be reinstalled but drastically slows movement speed and has almost complete cover from incoming projectiles.</description>
     <graphicData>
       <texPath>Build/BarrierTex2</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -373,7 +373,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>TurretCharge</defName>
     <label>Charge turret</label>
-    <description>Weakly protected turret with increased accuracy and range. Shoots energy projectiles that deal 16 damage, every 2.2 seconds. Great for dispatching single targets.</description>
+    <description>A high powered energy based turret great for dispatching a single target. Has increased range and accuracy compared to the mini-turret. Fires a single charged efram pellet into the nearest aggressor.</description>
     <thingClass>Building_TurretGun</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>

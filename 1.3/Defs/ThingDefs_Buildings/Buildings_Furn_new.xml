@@ -3,7 +3,7 @@
   <ThingDef ParentName="FurnitureWithQualityBase">
     <defName>Lamp-pot</defName>
     <label>lamp-pot</label>
-    <description>Flower pot with backlight. Very nice and does not require electricity, because it uses energy cells for work.</description>
+    <description>Plant decorative flowers here to improve the mood of people nearby. This high-tech flower pot has a built in lamp which already comes powered because of the energy cells needed in construction.</description>
     <thingClass>Building_PlantGrower</thingClass>
     <graphicData>
       <texPath>Furn/Lamp-pot2</texPath>
@@ -150,6 +150,7 @@
   <ThingDef ParentName="Lamp-potBase">
     <defName>Lamp-potP</defName>
     <label>lamp-pot (purple)</label>
+    <description>Plant decorative flowers here to improve the mood of people nearby. This high-tech flower pot has a built in purple lamp which already comes powered because of the energy cells needed in construction. This particular lamp is purple.</description>
     <graphicData>
       <texPath>Furn/Lamp-pot2P</texPath>
     </graphicData>
@@ -163,6 +164,7 @@
   <ThingDef ParentName="Lamp-potBase">
     <defName>Lamp-potT</defName>
     <label>lamp-pot (turquoise)</label>
+    <description>Plant decorative flowers here to improve the mood of people nearby. This high-tech flower pot has a built in turquoise lamp which already comes powered because of the energy cells needed in construction. This particular lamp is turquoise.</description>
     <graphicData>
       <texPath>Furn/Lamp-pot2T</texPath>
     </graphicData>
@@ -177,7 +179,7 @@
   <ThingDef ParentName="ArtableFurnitureBase">
     <defName>EliteDresserMeh</defName>
     <label>Elite dresser</label>
-    <description>Provides comfort and efficiency of rest for all nearby beds. Placement of more than one chest beside one bed is not affected. Has a high index of beauty. Reproduces a quiet, throbbing sound that helps you fall asleep faster</description>
+    <description>A high-tech dresser. Gives a large comfort bonus to all nearby beds while also producing a sound that helps a person reach REM sleep faster and keeps them there longer for a better sleep. Placing more than one dresser near the same bed has no effect.</description>
     <graphicData>
       <texPath>Furn2/Dresser</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -238,7 +240,7 @@
   <ThingDef ParentName="ArtableFurnitureBase">
     <defName>IonizerMeh</defName>
     <label>ionizer</label>
-    <description>A beautiful device, ionizes the room. Adds cleanliness. It will be necessary in the kitchen and in the hospital. Ionizer can also decorate any room. Uses energy cells for work.</description>
+    <description>Ionizes a room with mechanites in order to keep it as clean as possible. Great for kitchens and hospitals and for making a room clean and beautiful.</description>
     <graphicData>
       <texPath>Furn2/Ionisator</texPath>
       <graphicClass>Graphic_Single</graphicClass>

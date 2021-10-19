@@ -3,11 +3,11 @@
   <!-- Drilling -->
   <WorkTypeDef>
     <defName>BoreholeGas</defName>
-    <labelShort>Gas-miner</labelShort>
+    <labelShort>&lt;color=#54ff9f&gt;Gas-miner&lt;/color&gt;</labelShort>
     <pawnLabel>Gas-miner</pawnLabel>
-    <gerundLabel>Drilling gas</gerundLabel>
-    <description>Drillers-miners extract N-16 gas in ancient wells. (Mod: Mechalit Core)</description>
-    <verb>Drill gas</verb>
+    <gerundLabel>Extract gas N-16</gerundLabel>
+    <description>Drillers-miners produce N-16 gas in ancient wells. Mining speed depends on the Mining skill. (Mod: Mechalit Core)</description>
+    <verb>Extract gas N-16</verb>
     <naturalPriority>592</naturalPriority>
     <requireCapableColonist>true</requireCapableColonist>
     <relevantSkills>

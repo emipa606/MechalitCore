@@ -81,7 +81,7 @@
   <TerrainDef ParentName="MechaFloor2Base">
     <defName>MyrithiumTile</defName>
     <label>myrithium tile</label>
-    <description>Neat myrithium tiles. Performed in a checkerboard style.\n Beauty: 3.</description>
+    <description>Neat myrithium tiles. Incredibly slow to build.\nBeauty: 3.</description>
     <color>(186,146,137)</color>
     <edgeType>Hard</edgeType>
     <renderPrecedence>75</renderPrecedence>
@@ -100,7 +100,7 @@
   <TerrainDef ParentName="MechaFloor2Base">
     <defName>VilanitTile</defName>
     <label>vilanite tile</label>
-    <description>Neat beautiful vilanite tiles. Performed in a checkerboard style.\n Beauty: 5.</description>
+    <description>Neat vilanite tiles. Incredibly slow to build.\nBeauty: 5.</description>
     <color>(138,137,178)</color>
     <edgeType>Hard</edgeType>
     <renderPrecedence>76</renderPrecedence>
@@ -119,7 +119,7 @@
   <TerrainDef ParentName="FloorBase">
     <defName>IonizingTile</defName>
     <label>ionizing tile</label>
-    <description>Ionizing tiles, that kill all harmful bacterial in the room. Very clean.\n Beauty: 2.\n Cleanliness: 1.4.</description>
+    <description>Ionizing tiles with bacteria killing properties. Insanely slow to build but very beautiful and very clean so it's totally worth it. \nBeauty: 2 \nCleanliness: 1.4</description>
     <texturePath>Terrain/IonTex</texturePath>
     <color>(0.8, 0.9, 0.99)</color>
     <edgeType>Hard</edgeType>

@@ -20,7 +20,7 @@
   </HediffDef>
   <HediffDef ParentName="MechaProtHeddif">
     <defName>MechaArmHed</defName>
-    <label>MECHA ARM</label>
+    <label>Mecha arm</label>
     <labelNoun>a mecha arm</labelNoun>
     <description>An installed mecha arm.</description>
     <spawnThingOnRemoved>MechaArm</spawnThingOnRemoved>
@@ -45,7 +45,7 @@
   </HediffDef>
   <HediffDef ParentName="MechaProtHeddif">
     <defName>MechaLegHed</defName>
-    <label>MECHA LEG</label>
+    <label>Mecha leg</label>
     <labelNoun>a mecha leg</labelNoun>
     <description>An installed mecha leg.</description>
     <spawnThingOnRemoved>MechaLeg</spawnThingOnRemoved>
@@ -56,7 +56,7 @@
   </HediffDef>
   <HediffDef ParentName="MechaProtHeddif">
     <defName>MechaSpineHed</defName>
-    <label>MECHA SPINE</label>
+    <label>Mecha spine</label>
     <labelNoun>a mecha spine</labelNoun>
     <description>An installed mecha spine.</description>
     <spawnThingOnRemoved>MechaSpine</spawnThingOnRemoved>
@@ -100,7 +100,7 @@
   </HediffDef>
   <HediffDef ParentName="MechaImplant">
     <defName>MechaBrainHed</defName>
-    <label>MECHA BRAIN IMPLANT</label>
+    <label>Mecha brain implant</label>
     <labelNoun>a mecha brain implant</labelNoun>
     <description>An installed mecha brain implant.</description>
     <spawnThingOnRemoved>MechaBrain</spawnThingOnRemoved>

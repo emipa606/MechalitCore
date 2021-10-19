@@ -4,7 +4,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>MicroScanner</defName>
     <label>Micro-scanner</label>
-    <description>This scanner should be installed near the ancient borehole in order to increase gas extraction speed. \n \n Max scanners for a borehole: 4.</description>
+    <description>Place up to four scanners near a single ancient borehole to increase the speed at which N-16 gas is extracted. Each ancient borehole can only use four micro-scanners.</description>
     <graphicData>
       <texPath>Other/MicroScanTex</texPath>
       <graphicClass>Graphic_Single</graphicClass>

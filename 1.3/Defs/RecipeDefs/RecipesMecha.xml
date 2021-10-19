@@ -16,8 +16,8 @@
   <RecipeDef ParentName="RecipeMechaProte">
     <defName>CreateMechaArm</defName>
     <label>Create mecha arm</label>
-    <description>Create mechanite arm.</description>
-    <jobString>Creating mechanite arm.</jobString>
+    <description>Create mecha arm</description>
+    <jobString>Creating mecha arm</jobString>
     <ingredients>
       <li>
         <filter>
@@ -58,8 +58,8 @@
   <RecipeDef ParentName="RecipeMechaProte">
     <defName>CreateMechaLeg</defName>
     <label>Create mecha leg</label>
-    <description>Create mechanite leg.</description>
-    <jobString>Creating mechanite leg.</jobString>
+    <description>Create mecha leg</description>
+    <jobString>Creating mecha leg</jobString>
     <ingredients>
       <li>
         <filter>
@@ -100,8 +100,8 @@
   <RecipeDef ParentName="RecipeMechaProte">
     <defName>CreateMechaSpine</defName>
     <label>Create mecha spine</label>
-    <description>Create mechanite spine</description>
-    <jobString>Creating mechanite spine.</jobString>
+    <description>Create mecha spine</description>
+    <jobString>Creating mecha spine</jobString>
     <ingredients>
       <li>
         <filter>
@@ -142,8 +142,8 @@
   <RecipeDef ParentName="RecipeMechaProte">
     <defName>CreateMechaBrain</defName>
     <label>Create mecha brain implant</label>
-    <description>Create mechanite brain implant.</description>
-    <jobString>Creating mechanite brain implant.</jobString>
+    <description>Create mecha brain implant</description>
+    <jobString>Creating mecha brain implant</jobString>
     <ingredients>
       <li>
         <filter>

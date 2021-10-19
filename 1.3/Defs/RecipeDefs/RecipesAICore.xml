@@ -2,9 +2,9 @@
 <Defs>
   <RecipeDef>
     <defName>MakeAICoreMeh</defName>
-    <label>make AI Core</label>
-    <description>Make a AI Core.</description>
-    <jobString>Making  AI Core.</jobString>
+    <label>Make AI persona core</label>
+    <description>Make AI persona core</description>
+    <jobString>Making AI persona core</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>

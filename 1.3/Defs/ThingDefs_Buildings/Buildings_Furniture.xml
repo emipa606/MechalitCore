@@ -3,7 +3,7 @@
   <ThingDef ParentName="BedWithQualityBase">
     <defName>EliteBed</defName>
     <label>Elite bed</label>
-    <description>A hi-tech comfortable bed for esteemed colonists. High values of beauty, rest effectiveness and comfort. Mechanites act as a massager.</description>
+    <description>A high-tech bed imbeded with mechanites whose primary function is to give the user a light massage. This bed is longer, more beautiful, more comfortable, and gives better rest than the standard bed. Counts as a hospital bed in regards to a vitals monitor.</description>
     <thingClass>Building_Bed</thingClass>
     <graphicData>
       <texPath>Beds/BedFullF</texPath>
@@ -68,7 +68,7 @@
   <ThingDef ParentName="BedWithQualityBase">
     <defName>EliteDoubleBed</defName>
     <label>Elite double bed</label>
-    <description>A hi-tech comfortable bed for esteemed colonists. High values of beauty, rest effectiveness and comfort. Mechanites act as a massager.</description>
+    <description>A high-tech double bed, meant for the best colonists, imbeded with mechanites whose primary function is to give the user a strong massage. This bed is longer, more beautiful, more comfortable, and gives better rest than the standard double bed. Counts as a hospital bed in regards to a vitals monitor.</description>
     <thingClass>Building_Bed</thingClass>
     <graphicData>
       <texPath>Beds/BedFull</texPath>
@@ -133,8 +133,8 @@
   </ThingDef>
   <ThingDef ParentName="BedWithQualityBase">
     <defName>FirstClassBed</defName>
-    <label>Super bed</label>
-    <description>An extramely rich bed, half-made of gold. Only the best of the best of your colonists are worthy to sleep in this bed. Huge values of beauty, rest effectiveness and comfort. Mechanites act as a massager.</description>
+    <label>Elite royal bed</label>
+    <description>A high-tech royal bed, meant for the best of the best of colonists, imbeded with mechanites whose primary function is to give the user a deep tissue massage without waking them. This bed is longer, more beautiful, more comfortable, and gives better rest than the standard royal bed. Counts as a hospital bed in regards to a vitals monitor.</description>
     <thingClass>Building_Bed</thingClass>
     <graphicData>
       <texPath>Beds/BedFullP</texPath>

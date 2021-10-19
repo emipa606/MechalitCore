@@ -98,7 +98,7 @@
   <ThingDef ParentName="MechaGenBase">
     <defName>MechaGen4k</defName>
     <label>Mecha generator(4k)</label>
-    <description>Powerful generator (Green color. Energy output: 4000). Infinitely produces energy, does not need refueling. The mecha generator uses the energy cells, the installation for its construction.</description>
+    <description>Generates energy by pulling charge and amplifying it from the near unlimited power of the installed energy cells. Does not need refueling but it very expensive to build.</description>
     <graphicData>
       <texPath>Power/MechaGenG</texPath>
     </graphicData>
@@ -135,7 +135,7 @@
   <ThingDef ParentName="MechaGenBase">
     <defName>MechaGen6k</defName>
     <label>Mecha generator(6k)</label>
-    <description>Powerful generator (Blue color. Energy output: 6000). Infinitely produces energy, does not need refueling. The mecha generator uses the energy cells, the installation for its construction.</description>
+    <description>Generates energy by pulling charge and amplifying it from the near unlimited power of the installed energy cells. Does not need refueling but it very expensive to build.</description>
     <graphicData>
       <texPath>Power/MechaGenB</texPath>
     </graphicData>
@@ -172,7 +172,7 @@
   <ThingDef ParentName="MechaGenBase">
     <defName>MechaGen8k</defName>
     <label>Mecha generator(8k)</label>
-    <description>Powerful generator (Violet color. Energy output: 8000). Infinitely produces energy, does not need refueling. The mecha generator uses the energy cells, the installation for its construction.</description>
+    <description>Generates energy by pulling charge and amplifying it from the near unlimited power of the installed energy cells. Does not need refueling but it very expensive to build.</description>
     <graphicData>
       <texPath>Power/MechaGenV</texPath>
     </graphicData>
@@ -209,7 +209,7 @@
   <ThingDef ParentName="MechaGenBase">
     <defName>MechaGen10k</defName>
     <label>Mecha generator(10k)</label>
-    <description>Powerful generator (Red color. Energy output: 10000). Infinitely produces energy, does not need refueling. The mecha generator uses the energy cells, the installation for its construction.</description>
+    <description>Generates energy by pulling charge and amplifying it from the near unlimited power of the installed energy cells. Does not need refueling but it very expensive to build.</description>
     <graphicData>
       <texPath>Power/MechaGenR</texPath>
     </graphicData>

@@ -13,7 +13,7 @@
     <statBases>
       <MaxHitPoints>4500</MaxHitPoints>
     </statBases>
-    <description>Tisnite deposit. Tisnite is a very strong and unflammable metal.</description>
+    <description>Rock containing bits of tisnite.</description>
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>Tisnit</mineableThing>
@@ -35,7 +35,7 @@
     <statBases>
       <MaxHitPoints>2500</MaxHitPoints>
     </statBases>
-    <description>Ore, containing simerium - a light metal, useful as a material for production buildings.</description>
+    <description>Rock containing bits of simerium</description>
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>Simerium</mineableThing>
@@ -57,7 +57,7 @@
     <statBases>
       <MaxHitPoints>1200</MaxHitPoints>
     </statBases>
-    <description>Ore, containing simerium - a precious metal with healing properties. You can make excellent furniture out of phasarium.</description>
+    <description>Rock containing bits of phasarium.</description>
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>Phasarium</mineableThing>

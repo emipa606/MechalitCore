@@ -10,10 +10,10 @@
   </RecipeDef>
   <RecipeDef ParentName="SurgeryMechaProt">
     <defName>InstallMechaArm</defName>
-    <label>install mecha arm</label>
+    <label>install mechanite arm</label>
     <description>Install mechanite arm.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-    <jobString>Installing mechanite arm.</jobString>
+    <jobString>Installing mechanite arm</jobString>
     <skillRequirements>
       <Medicine>5</Medicine>
     </skillRequirements>
@@ -50,10 +50,10 @@
   </RecipeDef>
   <RecipeDef ParentName="SurgeryMechaProt">
     <defName>InstallMehaLeg</defName>
-    <label>Install mecha leg</label>
+    <label>Install mechanite leg</label>
     <description>Installing mechanite leg.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-    <jobString>Installing mechanite leg.</jobString>
+    <jobString>Installing mechanite leg</jobString>
     <skillRequirements>
       <Medicine>5</Medicine>
     </skillRequirements>
@@ -90,10 +90,10 @@
   </RecipeDef>
   <RecipeDef ParentName="SurgeryMechaProt">
     <defName>InstallMechaSpine</defName>
-    <label>install mecha spine</label>
+    <label>install mechanite spine</label>
     <description>Install mechanite spine.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-    <jobString>Installing mechanite spine.</jobString>
+    <jobString>Installing mechanite spine</jobString>
     <skillRequirements>
       <Medicine>5</Medicine>
     </skillRequirements>
@@ -130,10 +130,10 @@
   </RecipeDef>
   <RecipeDef ParentName="SurgeryMechaProt">
     <defName>InstallMechaBrain</defName>
-    <label>Install mecha brain implant</label>
-    <description>Install mechanite brain implant.</description>
+    <label>Install mechanite brain implant</label>
+    <description>Install mechanite brain implant</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-    <jobString>Installing mechanite brain implant.</jobString>
+    <jobString>Installing mechanite brain implant</jobString>
     <skillRequirements>
       <Medicine>5</Medicine>
     </skillRequirements>
